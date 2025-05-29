@@ -1,0 +1,29 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.button {
+    -fx-background-color: #181818;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+
+    -fx-pref-height: 50px;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+
+    -fx-pref-width: 50px;
+    -fx-min-width: 50px;
+    -fx-max-width: 50px;
+
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}
+
+.button :hover {
+    -fx-background-color: #2a2a2a;
+}

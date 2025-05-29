@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="chatsAnchorPane" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectobazarfei.ventanas.controllers.ChatsController">
+   <children>
+      <Pane fx:id="contenidoPanel" layoutX="300.0" prefHeight="1080.0" prefWidth="1620.0">
+         <children>
+            <Button fx:id="cerrarProgramaButton" layoutX="1556.0" layoutY="14.0" mnemonicParsing="false" onAction="#cerrarPrograma" style="-fx-background-color: black; -fx-text-fill: white;" stylesheets="@../../resources/system/styles/BotonCerrar.css" text="❌">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="bienvenidaLabel" layoutX="723.0" layoutY="100.0" stylesheets="@../../resources/system/styles/Label.css" text="Chats">
+               <font>
+                  <Font name="Segoe UI" size="70.0" />
+               </font>
+            </Label>
+            <ScrollPane fx:id="listaDeChatsScrollPane" fitToWidth="true" layoutX="20.0" layoutY="200.0" prefHeight="865.0" prefWidth="500.0" styleClass="margen" stylesheets="@../../resources/system/styles/RecuadroNormal.css">
+               <content>
+                  <FlowPane fx:id="listaDeChatsFlowPane" prefHeight="865.0" prefWidth="500.0">
+                     <children>
+                        <AnchorPane fx:id="chatListadoAnchorPane" prefHeight="100.0" prefWidth="480.0" styleClass="margen" stylesheets="@../../resources/system/styles/ChatIterativo.css">
+                           <children>
+                              <Pane fx:id="imagenContactoPane" layoutX="15.0" layoutY="15.0" prefHeight="70.0" prefWidth="70.0" styleClass="image" stylesheets="@../../resources/system/styles/CirculoImagen.css">
+                                 <children>
+                                    <ImageView fx:id="imagenContactoImageView" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </Pane>
+                              <Label fx:id="nombreContactoLabel" layoutX="100.0" layoutY="29.0" stylesheets="@../../resources/system/styles/Label.css" text="Robert">
+                                 <font>
+                                    <Font name="Segoe UI" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children></AnchorPane>
+                        <AnchorPane fx:id="chatListadoAnchorPane1" prefHeight="100.0" prefWidth="480.0" styleClass="margen" stylesheets="@../../resources/system/styles/ChatIterativo.css">
+                           <children>
+                              <Pane fx:id="imagenContactoPane1" layoutX="15.0" layoutY="15.0" prefHeight="70.0" prefWidth="70.0" styleClass="image" stylesheets="@../../resources/system/styles/CirculoImagen.css">
+                                 <children>
+                                    <ImageView fx:id="imagenContactoImageView1" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </Pane>
+                              <Label fx:id="nombreContactoLabel1" layoutX="100.0" layoutY="29.0" stylesheets="@../../resources/system/styles/Label.css" text="Layú">
+                                 <font>
+                                    <Font name="Segoe UI" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="chatListadoAnchorPane2" prefHeight="100.0" prefWidth="480.0" styleClass="margen" stylesheets="@../../resources/system/styles/ChatIterativo.css">
+                           <children>
+                              <Pane fx:id="imagenContactoPane2" layoutX="15.0" layoutY="15.0" prefHeight="70.0" prefWidth="70.0" styleClass="image" stylesheets="@../../resources/system/styles/CirculoImagen.css">
+                                 <children>
+                                    <ImageView fx:id="imagenContactoImageView2" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </Pane>
+                              <Label fx:id="nombreContactoLabel2" layoutX="100.0" layoutY="29.0" stylesheets="@../../resources/system/styles/Label.css" text="Epxon">
+                                 <font>
+                                    <Font name="Segoe UI" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="chatListadoAnchorPane3" prefHeight="100.0" prefWidth="480.0" styleClass="margen" stylesheets="@../../resources/system/styles/ChatIterativo.css">
+                           <children>
+                              <Pane fx:id="imagenContactoPane3" layoutX="15.0" layoutY="15.0" prefHeight="70.0" prefWidth="70.0" styleClass="image" stylesheets="@../../resources/system/styles/CirculoImagen.css">
+                                 <children>
+                                    <ImageView fx:id="imagenContactoImageView3" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </Pane>
+                              <Label fx:id="nombreContactoLabel3" layoutX="100.0" layoutY="29.0" stylesheets="@../../resources/system/styles/Label.css" text="Juanjo">
+                                 <font>
+                                    <Font name="Segoe UI" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children></FlowPane>
+               </content>
+            </ScrollPane>
+            <Pane fx:id="chatPane" layoutX="540.0" layoutY="200.0" prefHeight="865.0" prefWidth="1060.0" styleClass="margen" stylesheets="@../../resources/system/styles/RecuadroNormal.css">
+               <children>
+                  <Pane fx:id="barraSuperiorChatPane" prefHeight="100.0" prefWidth="1060.0" styleClass="barra-superior" stylesheets="@../../resources/system/styles/ChatConstruido.css">
+                     <children>
+                        <Label fx:id="nombreContactoBarraSuperiorLabel" layoutX="100.0" layoutY="29.0" stylesheets="@../../resources/system/styles/Label.css" text="Robert">
+                           <font>
+                              <Font name="Segoe UI" size="36.0" />
+                           </font>
+                        </Label>
+                        <Pane fx:id="fotoPerfilContactoBarraSuperiorPane" layoutX="15.0" layoutY="15.0" prefHeight="70.0" prefWidth="70.0" styleClass="image" stylesheets="@../../resources/system/styles/CirculoImagen.css">
+                           <children>
+                              <ImageView fx:id="fotoPerfilContactoBarraSuperiorImageView" fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </Pane>
+                     </children></Pane>
+                  <ScrollPane fx:id="espacioMensajeriaScrollPane" fitToWidth="true" layoutX="1.0" layoutY="101.0" prefHeight="665.0" prefWidth="1058.0" styleClass="espacio-mensajeria" stylesheets="@../../resources/system/styles/ChatConstruido.css">
+                     <content>
+                        <FlowPane fx:id="espacioMensajeriaFlowPane" prefHeight="665.0" prefWidth="1060.0">
+                           <children>
+                              <AnchorPane fx:id="mensajeRecibidoAnchorPane" prefHeight="56.0" prefWidth="215.0" styleClass="mensaje" stylesheets="@../../resources/system/styles/ChatIterativo.css">
+                                 <children>
+                                    <Label fx:id="mensajeLabel" layoutX="14.0" layoutY="16.0" stylesheets="@../../resources/system/styles/Label.css" text="Hola">
+                                       <font>
+                                          <Font name="Segoe UI" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="horaMensajeLabel" layoutX="153.0" layoutY="16.0" stylesheets="@../../resources/system/styles/Label.css" text="19:17">
+                                       <font>
+                                          <Font name="Segoe UI" size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </children></FlowPane>
+                     </content>
+                  </ScrollPane>
+                  <Pane fx:id="barraInferiorChatPane" layoutY="765.0" prefHeight="100.0" prefWidth="1060.0" styleClass="barra-inferior" stylesheets="@../../resources/system/styles/ChatConstruido.css">
+                     <children>
+                        <Button fx:id="enviarMensajeButton" layoutX="981.0" layoutY="18.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="65.0" stylesheets="@../../resources/system/styles/BotonNormal.css" text="➤" />
+                        <TextField fx:id="escribirMensajeTextField" layoutX="14.0" layoutY="18.0" prefHeight="65.0" prefWidth="953.0" promptText="💬 Escribe un mensaje..." styleClass="textfield-estilo" stylesheets="@../../resources/system/styles/TextField.css">
+                           <font>
+                              <Font name="Segoe UI" size="30.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                     </children></Pane>
+               </children></Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="barraLateralPane" prefHeight="1080.0" prefWidth="300.0" styleClass="root" stylesheets="@../../resources/system/styles/BarraLateralStyle.css">
+         <children>
+            <ImageView fx:id="logoImageView" fitHeight="270.0" fitWidth="270.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+               <image>
+                  <Image url="@../../resources/system/images/logo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="perfilLabel" layoutX="15.0" layoutY="300.0" onMouseClicked="#perfil" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="👤 Perfil" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="inicioOpcionLabel" layoutX="15.0" layoutY="375.0" onMouseClicked="#menu" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="☰ Menú" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="publicarProductoLabel" layoutX="15.0" layoutY="450.0" onMouseClicked="#publicarProducto" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="📣 Publicar un producto" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="publicarProductoLabel1" layoutX="15.0" layoutY="525.0" onMouseClicked="#productosActivos" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="📦 Productos activos" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="chatsLabel" layoutX="15.0" layoutY="600.0" onMouseClicked="#chats" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label-active" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="💬 Chats" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="comprasLabel" layoutX="15.0" layoutY="675.0" onMouseClicked="#compras" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="🛒 Compras" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="ventasLabel" layoutX="15.0" layoutY="750.0" onMouseClicked="#ventas" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="💲Ventas" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="configuracionLabel" layoutX="15.0" layoutY="825.0" onMouseClicked="#configuracion" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="🛠 Configuración" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="ayudaLabel" layoutX="15.0" layoutY="900.0" onMouseClicked="#ayuda" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="❓ Ayuda" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="cerrarSesionLabel" layoutX="15.0" layoutY="1023.0" onMouseClicked="#cerrarSesion" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="🚪 Cerrar sesión" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

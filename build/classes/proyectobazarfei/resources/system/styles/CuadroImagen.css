@@ -1,0 +1,11 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.image {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}

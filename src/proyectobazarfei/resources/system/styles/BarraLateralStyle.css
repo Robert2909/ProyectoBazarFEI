@@ -1,0 +1,38 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.root {
+    -fx-background-color: #181818;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0.1, 4, 4);
+}
+
+.sidebar-label-active {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 24px;
+    -fx-cursor: hand;
+    -fx-background-color: #2d2d2d;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}
+
+.sidebar-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 24px;
+    -fx-cursor: hand;
+    -fx-background-color: #1d1d1d;
+    -fx-background-radius: 10px;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}
+
+.sidebar-label:hover {
+    -fx-background-color: #2f2f2f;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0.1, 0, 4);
+}
+
+.logo {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,1), 20, 0.1, 0, 4);
+}

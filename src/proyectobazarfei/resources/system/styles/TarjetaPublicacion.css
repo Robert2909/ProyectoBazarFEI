@@ -1,0 +1,45 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.tarjetaProducto {
+    -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.stackPane {
+    -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}
+
+.imagen {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.titulo {
+    -fx-font-size: 20px;
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.1, 0, 4);
+}
+
+.precio {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.1, 0, 4);
+}
+
+.categoria {
+    -fx-font-size: 16px;
+    -fx-text-fill: #666;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.1, 0, 4);
+}

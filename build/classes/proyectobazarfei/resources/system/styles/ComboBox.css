@@ -1,0 +1,56 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 65px;
+    -fx-min-height: 65px;
+    -fx-max-height: 65px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}
+
+/* Celda visible del ComboBox (valor seleccionado) */
+.combo-box .list-cell {
+    -fx-text-fill: #b2b2b2;
+    -fx-font-size: 30px;
+}
+
+/* Botón de flecha */
+.combo-box .arrow-button {
+    -fx-background-color: white;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #ccc;
+}
+
+/* Estilo del menú desplegable */
+.combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px; 
+    -fx-background-radius: 10px;
+}
+
+/* Celdas del menú desplegable */
+.combo-box-popup .list-cell {
+    -fx-background-color: white;
+    -fx-font-size: 30px;
+    -fx-text-fill: #b2b2b2;
+    -fx-pref-height: 65px;
+}
+
+/* Hover sobre una opción */
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #ddd;
+}
+
+/* Opción seleccionada */
+.combo-box-popup .list-cell:selected {
+    -fx-background-color: #ccc;
+    -fx-text-fill: #2b2b2b;
+}

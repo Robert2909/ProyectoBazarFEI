@@ -1,0 +1,30 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.margen {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}
+/*
+.margen:hover {
+    -fx-background-color: #ddd;
+}
+*/
+
+.mensaje {
+    -fx-border-color: #ccc;
+    -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+}
+
+/*
+.mensaje:hover {
+    -fx-background-color: #ddd;
+}
+*/

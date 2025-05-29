@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RecuperarContrasenaSegundoPasoAnchorPane" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectobazarfei.ventanas.controllers.RecuperarContrasenaSegundoPasoController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="960.0">
+         <image>
+            <Image url="@../../resources/system/images/logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="960.0" prefHeight="1080.0" prefWidth="960.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="tituloLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="205.0" layoutY="300.0" prefHeight="120.0" prefWidth="550.0" stylesheets="@../../resources/system/styles/Label.css" text="Recuperar Contraseña" textAlignment="CENTER" textFill="#202020" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Segoe UI" size="50.0" />
+               </font>
+            </Label>
+            <TextField id="textCorreo" fx:id="respuestaTextField" layoutX="80.0" layoutY="600.0" prefHeight="65.0" prefWidth="800.0" promptText="💬 Respuesta" style="-fx-background-radius: 8px; -fx-border-radius: 8px;" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font name="Segoe UI" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Button id="btnIngresar" fx:id="confirmarButton" layoutX="280.0" layoutY="700.0" mnemonicParsing="false" onAction="#confirmar" prefHeight="80.0" prefWidth="400.0" style="-fx-background-color: black; -fx-text-fill: white;" stylesheets="@../../resources/system/styles/BotonConfirmacion.css" text="Confirmar">
+               <font>
+                  <Font name="Segoe UI" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="respondeLabel" alignment="CENTER" layoutX="80.0" layoutY="450.0" prefHeight="30.0" prefWidth="800.0" stylesheets="@../../resources/system/styles/Label.css" text="Responde tu pregunta de seguridad:">
+               <font>
+                  <Font name="Segoe UI" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="cerrarProgramaButton" layoutX="896.0" layoutY="14.0" mnemonicParsing="false" onAction="#cerrarPrograma" style="-fx-background-color: black; -fx-text-fill: white;" stylesheets="@../../resources/system/styles/BotonCerrar.css" text="❌">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="preguntaSeguridadLabel" alignment="CENTER" layoutX="80.0" layoutY="550.0" prefHeight="30.0" prefWidth="800.0" stylesheets="@../../resources/system/styles/Label.css" text="Pregunta de seguridad...">
+               <font>
+                  <Font name="Segoe UI" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

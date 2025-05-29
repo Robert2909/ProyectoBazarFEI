@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="proyectobazarfei.system.objects.vo">
+  <ClassDiagramComponents>
+    <Class name="UsuarioVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="1459.0" yPosition="890.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apodo" type="String" visibility="private"/>
+        <Field name="correo" type="String" visibility="private"/>
+        <Field name="contrasena" type="String" visibility="private"/>
+        <Field name="preguntaSeguridad" type="PreguntaSeguridadVO" visibility="private"/>
+        <Field name="respuestaSeguridad" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apodo"/>
+          <Argument type="String" name="correo"/>
+          <Argument type="String" name="contrasena"/>
+          <Argument type="PreguntaSeguridadVO" name="preguntaSeguridad"/>
+          <Argument type="String" name="respuestaSeguridad"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="int" name="id"/>
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apodo"/>
+          <Argument type="String" name="correo"/>
+          <Argument type="String" name="contrasena"/>
+          <Argument type="PreguntaSeguridadVO" name="preguntaSeguridad"/>
+          <Argument type="String" name="respuestaSeguridad"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getApodo" returnType="String" visibility="public"/>
+        <Method name="setApodo" returnType="void" visibility="public">
+          <Argument type="String" name="apodo"/>
+        </Method>
+        <Method name="getCorreo" returnType="String" visibility="public"/>
+        <Method name="setCorreo" returnType="void" visibility="public">
+          <Argument type="String" name="correo"/>
+        </Method>
+        <Method name="getContrasena" returnType="String" visibility="public"/>
+        <Method name="setContrasena" returnType="void" visibility="public">
+          <Argument type="String" name="contrasena"/>
+        </Method>
+        <Method name="getPreguntaSeguridad" returnType="PreguntaSeguridadVO" visibility="public"/>
+        <Method name="setPreguntaSeguridad" returnType="void" visibility="public">
+          <Argument type="PreguntaSeguridadVO" name="preguntaSeguridad"/>
+        </Method>
+        <Method name="getRespuestaSeguridad" returnType="String" visibility="public"/>
+        <Method name="setRespuestaSeguridad" returnType="void" visibility="public">
+          <Argument type="String" name="respuestaSeguridad"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PreguntaSeguridadVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="1789.0" yPosition="441.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="pregunta" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getPregunta" returnType="String" visibility="public"/>
+        <Method name="setPregunta" returnType="void" visibility="public">
+          <Argument type="String" name="pregunta"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ArticuloAyudaVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="1368.0" yPosition="519.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="titulo" type="String" visibility="private"/>
+        <Field name="contenido" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getTitulo" returnType="String" visibility="public"/>
+        <Method name="setTitulo" returnType="void" visibility="public">
+          <Argument type="String" name="titulo"/>
+        </Method>
+        <Method name="getContenido" returnType="String" visibility="public"/>
+        <Method name="setContenido" returnType="void" visibility="public">
+          <Argument type="String" name="contenido"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MensajeVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="1491.0" yPosition="53.0">
+      <Fields>
+        <Field name="fechaEnvio" type="Date" visibility="private"/>
+        <Field name="horaEnvio" type="String" visibility="private"/>
+        <Field name="texto" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getFechaEnvio" returnType="Date" visibility="public"/>
+        <Method name="setFechaEnvio" returnType="void" visibility="public">
+          <Argument type="Date" name="fechaEnvio"/>
+        </Method>
+        <Method name="getHoraEnvio" returnType="String" visibility="public"/>
+        <Method name="setHoraEnvio" returnType="void" visibility="public">
+          <Argument type="String" name="horaEnvio"/>
+        </Method>
+        <Method name="getTexto" returnType="String" visibility="public"/>
+        <Method name="setTexto" returnType="void" visibility="public">
+          <Argument type="String" name="texto"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ChatVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="960.0" yPosition="47.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="vendedor" type="PerfilUsuarioVO" visibility="private"/>
+        <Field name="comprador" type="PerfilUsuarioVO" visibility="private"/>
+        <Field name="mensajes" type="List&lt;MensajeVO&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getVendedor" returnType="PerfilUsuarioVO" visibility="public"/>
+        <Method name="setVendedor" returnType="void" visibility="public">
+          <Argument type="PerfilUsuarioVO" name="vendedor"/>
+        </Method>
+        <Method name="getComprador" returnType="PerfilUsuarioVO" visibility="public"/>
+        <Method name="setComprador" returnType="void" visibility="public">
+          <Argument type="PerfilUsuarioVO" name="comprador"/>
+        </Method>
+        <Method name="getMensajes" returnType="List&lt;MensajeVO&gt;" visibility="public"/>
+        <Method name="setMensajes" returnType="void" visibility="public">
+          <Argument type="List&lt;MensajeVO&gt;" name="mensajes"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TransaccionVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="198.0" yPosition="47.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="producto" type="ProductoVO" visibility="private"/>
+        <Field name="fechaCreacion" type="Date" visibility="private"/>
+        <Field name="horaCreacion" type="String" visibility="private"/>
+        <Field name="estado" type="String" visibility="private"/>
+        <Field name="metodoPago" type="String" visibility="private"/>
+        <Field name="calificacion" type="Integer" visibility="private"/>
+        <Field name="comentario" type="String" visibility="private"/>
+        <Field name="vendedor" type="PerfilUsuarioVO" visibility="private"/>
+        <Field name="comprador" type="PerfilUsuarioVO" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getProducto" returnType="ProductoVO" visibility="public"/>
+        <Method name="setProducto" returnType="void" visibility="public">
+          <Argument type="ProductoVO" name="producto"/>
+        </Method>
+        <Method name="getFechaCreacion" returnType="Date" visibility="public"/>
+        <Method name="setFechaCreacion" returnType="void" visibility="public">
+          <Argument type="Date" name="fechaCreacion"/>
+        </Method>
+        <Method name="getHoraCreacion" returnType="String" visibility="public"/>
+        <Method name="setHoraCreacion" returnType="void" visibility="public">
+          <Argument type="String" name="horaCreacion"/>
+        </Method>
+        <Method name="getEstado" returnType="String" visibility="public"/>
+        <Method name="setEstado" returnType="void" visibility="public">
+          <Argument type="String" name="estado"/>
+        </Method>
+        <Method name="getMetodoPago" returnType="String" visibility="public"/>
+        <Method name="setMetodoPago" returnType="void" visibility="public">
+          <Argument type="String" name="metodoPago"/>
+        </Method>
+        <Method name="getCalificacion" returnType="Integer" visibility="public"/>
+        <Method name="setCalificacion" returnType="void" visibility="public">
+          <Argument type="Integer" name="calificacion"/>
+        </Method>
+        <Method name="getComentario" returnType="String" visibility="public"/>
+        <Method name="setComentario" returnType="void" visibility="public">
+          <Argument type="String" name="comentario"/>
+        </Method>
+        <Method name="getVendedor" returnType="PerfilUsuarioVO" visibility="public"/>
+        <Method name="setVendedor" returnType="void" visibility="public">
+          <Argument type="PerfilUsuarioVO" name="vendedor"/>
+        </Method>
+        <Method name="getComprador" returnType="PerfilUsuarioVO" visibility="public"/>
+        <Method name="setComprador" returnType="void" visibility="public">
+          <Argument type="PerfilUsuarioVO" name="comprador"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PerfilUsuarioVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="889.0" yPosition="933.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="datosUsuario" type="UsuarioVO" visibility="private"/>
+        <Field name="fotoPerfil" type="String" visibility="private"/>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="productos" type="List&lt;ProductoVO&gt;" visibility="private"/>
+        <Field name="calificacionPromedio" type="double" visibility="private"/>
+        <Field name="vendedoresFavoritos" type="List&lt;PerfilUsuarioVO&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getDatosUsuario" returnType="UsuarioVO" visibility="public"/>
+        <Method name="setDatosUsuario" returnType="void" visibility="public">
+          <Argument type="UsuarioVO" name="datosUsuario"/>
+        </Method>
+        <Method name="getFotoPerfil" returnType="String" visibility="public"/>
+        <Method name="setFotoPerfil" returnType="void" visibility="public">
+          <Argument type="String" name="fotoPerfil"/>
+        </Method>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getProductos" returnType="List&lt;ProductoVO&gt;" visibility="public"/>
+        <Method name="setProductos" returnType="void" visibility="public">
+          <Argument type="List&lt;ProductoVO&gt;" name="productos"/>
+        </Method>
+        <Method name="getCalificacionPromedio" returnType="double" visibility="public"/>
+        <Method name="setCalificacionPromedio" returnType="void" visibility="public">
+          <Argument type="double" name="calificacionPromedio"/>
+        </Method>
+        <Method name="getVendedoresFavoritos" returnType="List&lt;PerfilUsuarioVO&gt;" visibility="public"/>
+        <Method name="setVendedoresFavoritos" returnType="void" visibility="public">
+          <Argument type="List&lt;PerfilUsuarioVO&gt;" name="vendedoresFavoritos"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ProductoVO" package="proyectobazarfei.system.objects.vo" visibility="public" xPosition="215.0" yPosition="1018.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="titulo" type="String" visibility="private"/>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="categoria" type="String" visibility="private"/>
+        <Field name="imagenes" type="List&lt;String&gt;" visibility="private"/>
+        <Field name="portada" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setId" returnType="void" visibility="public">
+          <Argument type="int" name="id"/>
+        </Method>
+        <Method name="getTitulo" returnType="String" visibility="public"/>
+        <Method name="setTitulo" returnType="void" visibility="public">
+          <Argument type="String" name="titulo"/>
+        </Method>
+        <Method name="getDescripcion" returnType="String" visibility="public"/>
+        <Method name="setDescripcion" returnType="void" visibility="public">
+          <Argument type="String" name="descripcion"/>
+        </Method>
+        <Method name="getPrecio" returnType="double" visibility="public"/>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="double" name="precio"/>
+        </Method>
+        <Method name="getCategoria" returnType="String" visibility="public"/>
+        <Method name="setCategoria" returnType="void" visibility="public">
+          <Argument type="String" name="categoria"/>
+        </Method>
+        <Method name="getImagenes" returnType="List&lt;String&gt;" visibility="public"/>
+        <Method name="setImagenes" returnType="void" visibility="public">
+          <Argument type="List&lt;String&gt;" name="imagenes"/>
+        </Method>
+        <Method name="getPortada" returnType="String" visibility="public"/>
+        <Method name="setPortada" returnType="void" visibility="public">
+          <Argument type="String" name="portada"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="proyectobazarfei.system.objects.vo.ChatVO" target="proyectobazarfei.system.objects.vo.MensajeVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyectobazarfei.system.objects.vo.TransaccionVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" target="proyectobazarfei.system.objects.vo.ProductoVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="comprador" source="proyectobazarfei.system.objects.vo.TransaccionVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="productos" source="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" target="proyectobazarfei.system.objects.vo.ProductoVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;ProductoVO&gt;"/>
+    <HasRelation name="comprador" source="proyectobazarfei.system.objects.vo.ChatVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="datosUsuario" source="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" target="proyectobazarfei.system.objects.vo.UsuarioVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="producto" source="proyectobazarfei.system.objects.vo.TransaccionVO" target="proyectobazarfei.system.objects.vo.ProductoVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyectobazarfei.system.objects.vo.TransaccionVO" target="proyectobazarfei.system.objects.vo.ProductoVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="vendedor" source="proyectobazarfei.system.objects.vo.ChatVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="preguntaSeguridad" source="proyectobazarfei.system.objects.vo.UsuarioVO" target="proyectobazarfei.system.objects.vo.PreguntaSeguridadVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="vendedor" source="proyectobazarfei.system.objects.vo.TransaccionVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="mensajes" source="proyectobazarfei.system.objects.vo.ChatVO" target="proyectobazarfei.system.objects.vo.MensajeVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;MensajeVO&gt;"/>
+    <HasRelation name="vendedoresFavoritos" source="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;PerfilUsuarioVO&gt;"/>
+    <UseRelation source="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" target="proyectobazarfei.system.objects.vo.UsuarioVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyectobazarfei.system.objects.vo.ChatVO" target="proyectobazarfei.system.objects.vo.PerfilUsuarioVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="proyectobazarfei.system.objects.vo.UsuarioVO" target="proyectobazarfei.system.objects.vo.PreguntaSeguridadVO" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

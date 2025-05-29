@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="TarjetaPublicacionAnchorPane" maxHeight="520.0" maxWidth="390.0" minHeight="520.0" minWidth="390.0" onMouseClicked="#abrirProducto" prefHeight="520.0" prefWidth="390.0" styleClass="tarjetaProducto" stylesheets="@../../resources/system/styles/TarjetaPublicacion.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectobazarfei.ventanas.controllers.TarjetaPublicacionController">
+   <children>
+      <StackPane fx:id="imagenStackPane" layoutX="45.0" layoutY="21.0" prefHeight="300.0" prefWidth="300.0" styleClass="stackPane" stylesheets="@../../resources/system/styles/TarjetaPublicacion.css">
+         <children>
+            <ImageView fx:id="imagenImageView" fitHeight="298.0" fitWidth="298.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" styleClass="imagen">
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </children>
+      </StackPane>
+      <Pane fx:id="datosPane" layoutX="45.0" layoutY="323.0" prefHeight="177.0" prefWidth="300.0">
+         <children>
+            <Label fx:id="tituloLabel" maxWidth="362.0" minWidth="300.0" prefHeight="43.0" prefWidth="300.0" styleClass="titulo" stylesheets="@../../resources/system/styles/Label.css" text="Título">
+               <font>
+                  <Font name="Segoe UI Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="precioLabel" layoutY="67.0" maxWidth="362.0" minWidth="300.0" prefHeight="43.0" prefWidth="300.0" styleClass="precio" stylesheets="@../../resources/system/styles/Label.css" text="Precio">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="categoriaLabel" layoutY="134.0" maxWidth="362.0" minWidth="300.0" prefHeight="43.0" prefWidth="300.0" styleClass="categoria" stylesheets="@../../resources/system/styles/Label.css" text="Categoría">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

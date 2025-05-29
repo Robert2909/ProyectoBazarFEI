@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="configuracionAnchorPane" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectobazarfei.ventanas.controllers.ConfiguracionController">
+   <children>
+      <Pane fx:id="contenidoPanel" layoutX="300.0" prefHeight="1080.0" prefWidth="1620.0">
+         <children>
+            <Button fx:id="cerrarProgramaButton" layoutX="1556.0" layoutY="14.0" mnemonicParsing="false" onAction="#cerrarPrograma" style="-fx-background-color: black; -fx-text-fill: white;" stylesheets="@../../resources/system/styles/BotonCerrar.css" text="❌">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="tituloLabel" layoutX="593.0" layoutY="100.0" stylesheets="@../../resources/system/styles/Label.css" text="Configuración">
+               <font>
+                  <Font name="Segoe UI" size="70.0" />
+               </font>
+            </Label>
+            <Label fx:id="configuracionPerfilLabel" layoutX="15.0" layoutY="300.0" stylesheets="@../../resources/system/styles/Label.css" text="Configuración del perfil">
+               <font>
+                  <Font name="Segoe UI" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="configuracionCuentaLabel" layoutX="1005.0" layoutY="300.0" prefHeight="43.0" prefWidth="434.0" stylesheets="@../../resources/system/styles/Label.css" text="Configuración de la cuenta">
+               <font>
+                  <Font name="Segoe UI" size="36.0" />
+               </font>
+            </Label>
+            <Line fx:id="configuracionPerfilLine" endX="650.0" layoutX="120.0" layoutY="350.0" startX="-100.0" />
+            <Line fx:id="configuracionCuentaLine" endX="650.0" layoutX="955.0" layoutY="350.0" startX="-100.0" />
+            <Pane fx:id="fotoPerfilPane" layoutX="520.0" layoutY="383.0" prefHeight="100.0" prefWidth="100.0" styleClass="image" stylesheets="@../../resources/system/styles/CirculoImagen.css">
+               <children>
+                  <ImageView fx:id="fotoPerfilImageView" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Button fx:id="cambiarFotoButton" layoutX="20.0" layoutY="400.0" mnemonicParsing="false" onAction="#cambiarFoto" prefWidth="300.0" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Cambiar foto de perfil">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="cambiarApodoButton" layoutX="15.0" layoutY="525.0" mnemonicParsing="false" onAction="#cambiarApodo" prefWidth="300.0" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Cambiar apodo">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="cambiarNombreButton" layoutX="15.0" layoutY="650.0" mnemonicParsing="false" onAction="#cambiarNombre" prefWidth="300.0" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Cambiar nombre">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <Button fx:id="cambiarDescripcionButton" layoutX="20.0" layoutY="775.0" mnemonicParsing="false" onAction="#cambiarDescripcion" prefWidth="300.0" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Cambiar descripión">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></Button>
+            <TextField fx:id="cambiarApodoTextField" editable="false" layoutX="370.0" layoutY="525.0" prefWidth="400.0" promptText="Apodo" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="cambiarNombreTextField" editable="false" layoutX="370.0" layoutY="650.0" prefWidth="400.0" promptText="Nombre" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></TextField>
+            <TextArea fx:id="cambiarDescripcionTextArea" editable="false" layoutX="370.0" layoutY="775.0" minHeight="286.0" prefHeight="290.0" prefWidth="400.0" promptText="Descripción" stylesheets="@../../resources/system/styles/TextArea.css">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font></TextArea>
+            <Button fx:id="cambiarCorreoButton" layoutX="855.0" layoutY="400.0" mnemonicParsing="false" onAction="#cambiarCorreo" prefWidth="300.0" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Cambiar correo">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="cambiarContrasenaButton" layoutX="855.0" layoutY="525.0" mnemonicParsing="false" onAction="#cambiarContrasena" prefWidth="300.0" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Cambiar contraseña">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="cambiarCorreoTextField" editable="false" layoutX="1205.0" layoutY="400.0" prefWidth="400.0" promptText="Correo" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="cambiarContrasenaTextField" editable="false" layoutX="1205.0" layoutY="525.0" prefWidth="400.0" promptText="******" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="cambiarContrasenaRepeticionTextField" editable="false" layoutX="1205.0" layoutY="650.0" prefWidth="400.0" promptText="******" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="guardarCambiosButton" layoutX="1205.0" layoutY="985.0" mnemonicParsing="false" onAction="#guardarCambios" stylesheets="@../../resources/system/styles/BotonConfirmacion.css" text="Guardar cambios" />
+         </children>
+      </Pane>
+      <Pane fx:id="barraLateralPane" prefHeight="1080.0" prefWidth="300.0" styleClass="root" stylesheets="@../../resources/system/styles/BarraLateralStyle.css">
+         <children>
+            <ImageView fx:id="logoImageView" fitHeight="270.0" fitWidth="270.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" smooth="false" styleClass="logo">
+               <image>
+                  <Image url="@../../resources/system/images/logo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="perfilLabel" layoutX="15.0" layoutY="300.0" onMouseClicked="#perfil" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="👤 Perfil" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="inicioOpcionLabel" layoutX="15.0" layoutY="375.0" onMouseClicked="#menu" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="☰ Menú" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="publicarProductoLabel" layoutX="15.0" layoutY="450.0" onMouseClicked="#publicarProducto" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="📣 Publicar un producto" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="publicarProductoLabel1" layoutX="15.0" layoutY="525.0" onMouseClicked="#productosActivos" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="📦 Productos activos" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="chatsLabel" layoutX="15.0" layoutY="600.0" onMouseClicked="#chats" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="💬 Chats" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="comprasLabel" layoutX="15.0" layoutY="675.0" onMouseClicked="#compras" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="🛒 Compras" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="ventasLabel" layoutX="15.0" layoutY="750.0" onMouseClicked="#ventas" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="💲Ventas" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="configuracionLabel" layoutX="15.0" layoutY="825.0" onMouseClicked="#configuracion" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label-active" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="🛠 Configuración" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="ayudaLabel" layoutX="15.0" layoutY="900.0" onMouseClicked="#ayuda" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="❓ Ayuda" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="cerrarSesionLabel" layoutX="15.0" layoutY="1023.0" onMouseClicked="#cerrarSesion" prefHeight="43.0" prefWidth="270.0" styleClass="sidebar-label" stylesheets="@../../resources/system/styles/BarraLateralStyle.css" text="🚪 Cerrar sesión" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

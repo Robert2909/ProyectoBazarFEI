@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RecuperarContrasenaTercerPasoAnchorPane" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #181818;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectobazarfei.ventanas.controllers.RecuperarContrasenaTercerPasoController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="960.0">
+         <image>
+            <Image url="@../../resources/system/images/logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="960.0" prefHeight="1080.0" prefWidth="960.0" style="-fx-background-color: white;">
+         <children>
+            <Label fx:id="codigoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="205.0" layoutY="275.0" prefHeight="120.0" prefWidth="550.0" stylesheets="@../../resources/system/styles/Label.css" text="Recuperar Contraseña" textAlignment="CENTER" textFill="#202020" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Segoe UI" size="50.0" />
+               </font>
+            </Label>
+            <Button id="btnIngresar" fx:id="confirmarButton" layoutX="280.0" layoutY="725.0" mnemonicParsing="false" onAction="#confirmar" prefHeight="80.0" prefWidth="400.0" style="-fx-background-color: black; -fx-text-fill: white;" stylesheets="@../../resources/system/styles/BotonConfirmacion.css" text="Confirmar">
+               <font>
+                  <Font name="Segoe UI" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="respondeLabel" alignment="CENTER" layoutX="80.0" layoutY="425.0" prefHeight="30.0" prefWidth="800.0" stylesheets="@../../resources/system/styles/Label.css" text="Reestablece tu contraseña">
+               <font>
+                  <Font name="Segoe UI" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="cerrarProgramaButton" layoutX="896.0" layoutY="14.0" mnemonicParsing="false" onAction="#cerrarPrograma" style="-fx-background-color: black; -fx-text-fill: white;" stylesheets="@../../resources/system/styles/BotonCerrar.css" text="❌">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <PasswordField fx:id="nuevaContrasenaPasswordField" layoutX="80.0" layoutY="525.0" prefHeight="65.0" prefWidth="800.0" promptText="🔒 Contraseña nueva" style="-fx-background-radius: 8px; -fx-border-radius: 8px;" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </PasswordField>
+            <PasswordField fx:id="repetirContrasenaPasswordField" layoutX="80.0" layoutY="625.0" prefHeight="65.0" prefWidth="800.0" promptText="🔒 Repetir contraseña" style="-fx-background-radius: 8px; -fx-border-radius: 8px;" stylesheets="@../../resources/system/styles/TextField.css">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

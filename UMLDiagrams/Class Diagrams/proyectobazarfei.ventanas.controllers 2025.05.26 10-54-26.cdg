@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="proyectobazarfei.ventanas.controllers">
+  <ClassDiagramComponents>
+    <Class name="RegistroSiguienteController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="public" isStatic="true"/>
+        <Field name="apodo" type="String" visibility="public" isStatic="true"/>
+        <Field name="correo" type="String" visibility="public" isStatic="true"/>
+        <Field name="contrasena" type="String" visibility="public" isStatic="true"/>
+        <Field name="contrasenaRepetida" type="String" visibility="public" isStatic="true"/>
+        <Field name="preguntaSeguridad" type="PreguntaSeguridadVO" visibility="public" isStatic="true"/>
+        <Field name="respuesta" type="String" visibility="public" isStatic="true"/>
+        <Field name="RegistroSiguienteAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="finalizarButton" type="Button" visibility="private"/>
+        <Field name="instruccionLabel" type="Label" visibility="private"/>
+        <Field name="preguntaSeguridadLabel" type="Label" visibility="private"/>
+        <Field name="registrarseLabel" type="Label" visibility="private"/>
+        <Field name="respuestaTextField" type="TextField" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="initialize" returnType="void" visibility="package"/>
+        <Method name="finalizar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RegistroController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="560.0" yPosition="41.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="public" isStatic="true"/>
+        <Field name="apodo" type="String" visibility="public" isStatic="true"/>
+        <Field name="correo" type="String" visibility="public" isStatic="true"/>
+        <Field name="contrasena" type="String" visibility="public" isStatic="true"/>
+        <Field name="contrasenaRepetida" type="String" visibility="public" isStatic="true"/>
+        <Field name="RegistroAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="apodoTextField" type="TextField" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="contrasenaTextField" type="PasswordField" visibility="private"/>
+        <Field name="correoTextField" type="TextField" visibility="private"/>
+        <Field name="nombreTextField" type="TextField" visibility="private"/>
+        <Field name="registrarseButton" type="Button" visibility="private"/>
+        <Field name="registrarseLabel" type="Label" visibility="private"/>
+        <Field name="regresarLoginButton" type="Label" visibility="private"/>
+        <Field name="repetirContrasenaTextField" type="PasswordField" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="registrarse" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="regresarLogin" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="LoginController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="386.0" yPosition="753.0">
+      <Fields>
+        <Field name="sesion" type="String" visibility="public" isStatic="true"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="contrasenaTextField" type="PasswordField" visibility="private"/>
+        <Field name="correoTextField" type="TextField" visibility="private"/>
+        <Field name="ingresarButton" type="Button" visibility="private"/>
+        <Field name="iniciarSesionLabel" type="Label" visibility="private"/>
+        <Field name="loginAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="olvideContraseña" type="Label" visibility="private"/>
+        <Field name="recuerdameCheckBox" type="CheckBox" visibility="private"/>
+        <Field name="registrarseLabelButton" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="ingresar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="olvideMiContrasena" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="registrarse" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MenuController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="bienvenidaLabel" type="Label" visibility="private"/>
+        <Field name="buscarButton" type="Button" visibility="private"/>
+        <Field name="buscarTextField" type="TextField" visibility="private"/>
+        <Field name="categoriaComboBox" type="ComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="categoriasLabel" type="Label" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="menuAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="precioMaximoTextField" type="TextField" visibility="private"/>
+        <Field name="precioMinimoTextField" type="TextField" visibility="private"/>
+        <Field name="productosFlowPane" type="FlowPane" visibility="private"/>
+        <Field name="productosPane" type="ScrollPane" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="initialize" returnType="void" visibility="package"/>
+        <Method name="cargarTarjetasDeProductos" returnType="void" visibility="public">
+          <Argument type="List&lt;ProductoVO&gt;" name="productos"/>
+        </Method>
+        <Method name="buscar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RecuperarContrasenaSegundoPasoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="58.0" yPosition="2045.0">
+      <Fields>
+        <Field name="usuario" type="UsuarioVO" visibility="public" isStatic="true"/>
+        <Field name="RecuperarContrasenaSegundoPasoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="codigoLabel" type="Label" visibility="private"/>
+        <Field name="respuestaTextField" type="TextField" visibility="private"/>
+        <Field name="confirmarButton" type="Button" visibility="private"/>
+        <Field name="nuevaContrasenaPasswordField" type="PasswordField" visibility="private"/>
+        <Field name="preguntaSeguridadLabel" type="Label" visibility="private"/>
+        <Field name="repetirContrasenaPasswordField" type="PasswordField" visibility="private"/>
+        <Field name="respondeLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="initialize" returnType="void" visibility="package"/>
+        <Method name="confirmar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RecuperarContrasenaPrimerPasoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="2140.0" yPosition="1637.0">
+      <Fields>
+        <Field name="usuario" type="UsuarioVO" visibility="public" isStatic="true"/>
+        <Field name="RecuperarContrasenaPrimerPasoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="aceptarButton" type="Button" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="correoTextField" type="TextField" visibility="private"/>
+        <Field name="infoLabel" type="Label" visibility="private"/>
+        <Field name="recuperarContrasenaLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="verificarInformacion" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="AyudaController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1881.0" yPosition="41.0">
+      <Fields>
+        <Field name="ayudaAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="mostrarAyuda" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ChatsController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="2228.0" yPosition="176.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ComprasController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="76.0" yPosition="480.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ConfiguracionController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="560.0" yPosition="1249.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cambiarApodoButton" type="Button" visibility="private"/>
+        <Field name="cambiarApodoTextField" type="TextField" visibility="private"/>
+        <Field name="cambiarContrasenaButton" type="Button" visibility="private"/>
+        <Field name="cambiarContrasenaRepeticionTextField" type="TextField" visibility="private"/>
+        <Field name="cambiarContrasenaTextField" type="TextField" visibility="private"/>
+        <Field name="cambiarCorreoButton" type="Button" visibility="private"/>
+        <Field name="cambiarCorreoTextField" type="TextField" visibility="private"/>
+        <Field name="cambiarDescripcionButton" type="Button" visibility="private"/>
+        <Field name="cambiarDescripcionTextArea" type="TextArea" visibility="private"/>
+        <Field name="cambiarFotoButton" type="Button" visibility="private"/>
+        <Field name="cambiarNombreButton" type="Button" visibility="private"/>
+        <Field name="cambiarNombreTextField" type="TextField" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="configuracionCuentaLabel" type="Label" visibility="private"/>
+        <Field name="configuracionCuentaLine" type="Line" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="configuracionPerfilLabel" type="Label" visibility="private"/>
+        <Field name="configuracionPerfilLine" type="Line" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="fotoPerfilImageView" type="ImageView" visibility="private"/>
+        <Field name="fotoPerfilPane" type="Pane" visibility="private"/>
+        <Field name="guardarCambiosButton" type="Button" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="tituloLabel" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="cambiarFoto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cambiarApodo" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cambiarNombre" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cambiarDescripcion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cambiarCorreo" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cambiarContrasena" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="guardarCambios" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RegistroExitoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="502.0" yPosition="532.0">
+      <Fields>
+        <Field name="RegistroExitoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="aceptarButton" type="Button" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="registroCompletoLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="aceptar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RecuperarContrasenaCuartoPasoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields>
+        <Field name="RecuperarContrasenaExitosamenteAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="aceptarButton" type="Button" visibility="private"/>
+        <Field name="contrasenaRecuperadaLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="aceptar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PublicarProductoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1195.0" yPosition="856.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarProgramaButton1" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="efectivoCheckBox" type="CheckBox" visibility="private"/>
+        <Field name="guionLabel" type="Label" visibility="private"/>
+        <Field name="horaFinTextField" type="TextField" visibility="private"/>
+        <Field name="horaInicioTextField" type="TextField" visibility="private"/>
+        <Field name="horarioDisponibilidadLabel" type="Label" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="metodosPagoAceptadosLabel" type="Label" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="siguienteButton" type="Button" visibility="private"/>
+        <Field name="subtituloLabel1" type="Label" visibility="private"/>
+        <Field name="tarjetaCheckBox" type="CheckBox" visibility="private"/>
+        <Field name="tituloLabel1" type="Label" visibility="private"/>
+        <Field name="transferenciaCheckBox" type="CheckBox" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="siguiente" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ProductosActivosController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1556.0" yPosition="598.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="productosActivosAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PerfilPropioController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1881.0" yPosition="783.0">
+      <Fields>
+        <Field name="apodoLabel" type="Label" visibility="private"/>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="calificacionLabel" type="Label" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="descripcionLabel" type="Label" visibility="private"/>
+        <Field name="descripcionTextArea" type="TextArea" visibility="private"/>
+        <Field name="editarPerfilButton" type="Button" visibility="private"/>
+        <Field name="imagenPerfilImageView" type="ImageView" visibility="private"/>
+        <Field name="imagenPerfilPane" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="nombreLabel" type="Label" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="perfilPropioAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="productosFlowPane" type="FlowPane" visibility="private"/>
+        <Field name="productosLabel" type="Label" visibility="private"/>
+        <Field name="productosScrollPane" type="ScrollPane" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="tituloLabel" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="initialize" returnType="void" visibility="public"/>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PerfilAjenoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1810.0" yPosition="1661.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilAjenoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentasController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="76.0" yPosition="1164.0">
+      <Fields>
+        <Field name="usuarioSesion" type="UsuarioVO" visibility="public"/>
+        <Field name="listaVentasFlowPane" type="FlowPane" visibility="private"/>
+        <Field name="listaVentasScrollPane" type="ScrollPane" visibility="private"/>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="bienvenidaLabel" type="Label" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="initialize" returnType="void" visibility="public"/>
+        <Method name="cargarVentasDelUsuario" returnType="void" visibility="private">
+          <Argument type="List&lt;TransaccionVO&gt;" name="transacciones"/>
+        </Method>
+        <Method name="verProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RecuperarContrasenaTercerPasoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="737.0" yPosition="891.0">
+      <Fields>
+        <Field name="usuario" type="UsuarioVO" visibility="public" isStatic="true"/>
+        <Field name="RecuperarContrasenaTercerPasoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="codigoLabel" type="Label" visibility="private"/>
+        <Field name="confirmarButton" type="Button" visibility="private"/>
+        <Field name="nuevaContrasenaPasswordField" type="PasswordField" visibility="private"/>
+        <Field name="repetirContrasenaPasswordField" type="PasswordField" visibility="private"/>
+        <Field name="respondeLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="confirmar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TarjetaPublicacionController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1512.0" yPosition="1209.0">
+      <Fields>
+        <Field name="TarjetaPublicacionAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="categoriaLabel" type="Label" visibility="private"/>
+        <Field name="datosPane" type="Pane" visibility="private"/>
+        <Field name="imagenImageView" type="ImageView" visibility="private"/>
+        <Field name="imagenStackPane" type="StackPane" visibility="private"/>
+        <Field name="precioLabel" type="Label" visibility="private"/>
+        <Field name="tituloLabel" type="Label" visibility="private"/>
+        <Field name="productoAsociado" type="ProductoVO" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="abrirProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="rellenarDatosPublicacion" returnType="void" visibility="public">
+          <Argument type="ProductoVO" name="producto"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PublicarProductoSegundoPasoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="2167.0" yPosition="783.0">
+      <Fields>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="categoriaComboBox" type="ComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="cerrarProgramaButton1" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="descripcionTextArea" type="TextArea" visibility="private"/>
+        <Field name="elegirImagen" type="Button" visibility="private"/>
+        <Field name="imagenProductoNuevoImageView" type="ImageView" visibility="private"/>
+        <Field name="imagenProductoNuevoPane" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="precioTextField" type="TextField" visibility="private"/>
+        <Field name="publicarButton" type="Button" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="publicarProductoSegundoPasoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="subtituloLabel1" type="Label" visibility="private"/>
+        <Field name="tituloLabel1" type="Label" visibility="private"/>
+        <Field name="tituloTextField" type="TextField" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="initialize" returnType="void" visibility="package"/>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="enviarProducto" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PublicarProductoTercerPasoController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1022.0" yPosition="1688.0">
+      <Fields>
+        <Field name="PublicarProductoTercerPasoAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="aceptarButton" type="Button" visibility="private"/>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="tituloLabel" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="aceptar" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="siguiente" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VentaEnListaController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1404.0" yPosition="109.0">
+      <Fields>
+        <Field name="ventaEnListaAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="calificacionProductoLabel" type="Label" visibility="private"/>
+        <Field name="categoriaProductoLabel" type="Label" visibility="private"/>
+        <Field name="estadoProductoLabel" type="Label" visibility="private"/>
+        <Field name="fechaYHoraProductoLabel" type="Label" visibility="private"/>
+        <Field name="metodoPagoProductoLabel" type="Label" visibility="private"/>
+        <Field name="portadaProductoImageView" type="ImageView" visibility="private"/>
+        <Field name="precioProductoLabel" type="Label" visibility="private"/>
+        <Field name="tituloProductoLabel" type="Label" visibility="private"/>
+        <Field name="verProductoButton" type="Button" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="rellenarDatosTransaccion" returnType="void" visibility="public">
+          <Argument type="TransaccionVO" name="transaccion"/>
+        </Method>
+        <Method name="verProducto" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="AyudaDesplegadaController" package="proyectobazarfei.ventanas.controllers" visibility="public" xPosition="1520.0" yPosition="1574.0">
+      <Fields>
+        <Field name="ayudaDesplegadaAnchorPane" type="AnchorPane" visibility="private"/>
+        <Field name="ayudaLabel" type="Label" visibility="private"/>
+        <Field name="barraLateralPane" type="Pane" visibility="private"/>
+        <Field name="cerrarProgramaButton" type="Button" visibility="private"/>
+        <Field name="cerrarSesionLabel" type="Label" visibility="private"/>
+        <Field name="chatsLabel" type="Label" visibility="private"/>
+        <Field name="comprasLabel" type="Label" visibility="private"/>
+        <Field name="configuracionLabel" type="Label" visibility="private"/>
+        <Field name="contenidoPanel" type="Pane" visibility="private"/>
+        <Field name="inicioOpcionLabel" type="Label" visibility="private"/>
+        <Field name="logoImageView" type="ImageView" visibility="private"/>
+        <Field name="perfilLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel" type="Label" visibility="private"/>
+        <Field name="publicarProductoLabel1" type="Label" visibility="private"/>
+        <Field name="ventasLabel" type="Label" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="aceptarAyuda" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+        <Method name="perfil" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="menu" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="publicarProducto" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="productosActivos" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="chats" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="compras" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ventas" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="configuracion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="ayuda" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarSesion" returnType="void" visibility="package">
+          <Argument type="MouseEvent" name="event"/>
+        </Method>
+        <Method name="cerrarPrograma" returnType="void" visibility="package">
+          <Argument type="ActionEvent" name="event"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,27 @@
+* {
+    -fx-font-family: "Segoe UI";
+}
+
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 30px;
+    -fx-text-fill: #2b2b2b;
+
+    -fx-max-height: 315px;
+
+    -fx-wrap-text: true;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
+
+}
+
+.text-area:focused {
+    -fx-border-color: #aaa;
+}
+
+.text-area,
+.text-area:focused {
+    -fx-prompt-text-fill: #ccc;
+}
