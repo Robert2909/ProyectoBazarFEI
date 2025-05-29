@@ -241,7 +241,7 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 
         return null;
     }
-    // ESTAMOS CORRIGIENDO EL MËTODO PARA OBTENER EL USUARIO, YA FUNCIONA EL ENLACE; SOLO FALLA QUE OBTENGA EL USUARIO POR EL PERFIL
+
 @Override
 public UsuarioVO obtenerUsuarioPorPerfilId(int perfilId) {
     LogManager.debug("Obteniendo usuario por ID de perfil: " + perfilId);
@@ -260,7 +260,7 @@ public UsuarioVO obtenerUsuarioPorPerfilId(int perfilId) {
         }
 
         if (refUsuario != null) {
-            PreparedStatement usuarioStmt = conn.prepareStatement("SELECT * FROM usuarios WHERE REF(usuarios) = ?");
+            PreparedStatement usuarioStmt = conn.prepareStatement("SELECT * FROM usuarios u WHERE REF(u) = ?");
             usuarioStmt.setRef(1, refUsuario);
             ResultSet usuarioRs = usuarioStmt.executeQuery();
 
@@ -273,10 +273,9 @@ public UsuarioVO obtenerUsuarioPorPerfilId(int perfilId) {
                 usuario.setContrasena(usuarioRs.getString("contrasena"));
                 usuario.setRespuestaSeguridad(usuarioRs.getString("respuesta_seguridad"));
 
-                // REF a pregunta de seguridad
                 Ref refPregunta = usuarioRs.getRef("pregunta_seguridad");
                 if (refPregunta != null) {
-                    PreparedStatement psPregunta = conn.prepareStatement("SELECT * FROM preguntas_seguridad WHERE REF(preguntas_seguridad) = ?");
+                    PreparedStatement psPregunta = conn.prepareStatement("SELECT * FROM preguntas_seguridad p WHERE REF(p) = ?");
                     psPregunta.setRef(1, refPregunta);
                     ResultSet rsPregunta = psPregunta.executeQuery();
 
@@ -296,5 +295,7 @@ public UsuarioVO obtenerUsuarioPorPerfilId(int perfilId) {
 
     return usuario;
 }
+
+
 
 }

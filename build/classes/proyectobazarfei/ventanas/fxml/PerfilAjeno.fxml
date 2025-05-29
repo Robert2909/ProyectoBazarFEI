@@ -154,7 +154,8 @@
                   <FlowPane fx:id="productosFlowPane" prefHeight="290.0" prefWidth="1590.0" />
                </content>
             </ScrollPane>
-            <Button fx:id="editarPerfilButton" layoutX="1419.0" layoutY="110.0" mnemonicParsing="false" onAction="#reportarPerfil" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Reportar perfil" />
+            <Button fx:id="editarPerfilButton" layoutX="1419.0" layoutY="100.0" mnemonicParsing="false" onAction="#reportarPerfil" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Reportar perfil" />
+            <Button fx:id="anadirFavoritosButton" layoutX="1385.0" layoutY="200.0" mnemonicParsing="false" onAction="#anadirFavoritos" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Añadir a favoritos" />
          </children>
       </Pane>
    </children>

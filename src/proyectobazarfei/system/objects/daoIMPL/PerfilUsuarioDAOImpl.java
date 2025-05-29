@@ -6,6 +6,9 @@ import proyectobazarfei.system.objects.vo.UsuarioVO;
 import proyectobazarfei.system.methods.DatabaseManager;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+import proyectobazarfei.system.methods.AlertaSistema;
 import proyectobazarfei.system.methods.LogManager;
 import proyectobazarfei.system.objects.vo.PreguntaSeguridadVO;
 
@@ -175,37 +178,163 @@ public class PerfilUsuarioDAOImpl implements PerfilUsuarioDAO {
         return perfil;
     }
     
-@Override
-public PerfilUsuarioVO obtenerPerfilPorProductoId(int productoId) {
-    LogManager.debug("Obteniendo perfil por producto ID: " + productoId);
+    @Override
+    public PerfilUsuarioVO obtenerPerfilPorProductoId(int productoId) {
+        LogManager.debug("Obteniendo perfil por producto ID: " + productoId);
 
-    String sql = """
-        SELECT p.*
-        FROM perfiles_usuarios p,
-             TABLE(p.productos) prod
-        WHERE DEREF(VALUE(prod)).id = ?
-    """;
+        String sql = """
+            SELECT p.*
+            FROM perfiles_usuarios p,
+                 TABLE(p.productos) prod
+            WHERE DEREF(VALUE(prod)).id = ?
+        """;
 
-    PerfilUsuarioVO perfil = null;
+        PerfilUsuarioVO perfil = null;
 
-    try (Connection conn = DatabaseManager.getConnection();
-         PreparedStatement stmt = conn.prepareStatement(sql)) {
+        try (Connection conn = DatabaseManager.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
 
-        stmt.setInt(1, productoId);
-        ResultSet rs = stmt.executeQuery();
+            stmt.setInt(1, productoId);
+            ResultSet rs = stmt.executeQuery();
 
-        if (rs.next()) {
-            perfil = mapearPerfil(rs);
+            if (rs.next()) {
+                perfil = mapearPerfil(rs);
+            }
+
+        } catch (SQLException e) {
+            LogManager.error("Error al obtener perfil por producto ID: " + e.getMessage());
         }
 
-    } catch (SQLException e) {
-        LogManager.error("Error al obtener perfil por producto ID: " + e.getMessage());
+        return perfil;
     }
 
-    return perfil;
+    @Override
+    public void agregarVendedorFavorito(int idPerfilActual, int idPerfilFavorito) {
+        LogManager.debug("Agregando perfil " + idPerfilFavorito + " a favoritos del perfil " + idPerfilActual);
+
+        String sql = """
+            UPDATE perfiles_usuarios p
+            SET vendedores_favoritos = vendedores_favoritos MULTISET UNION DISTINCT
+                CAST( MULTISET(
+                    SELECT REF(f)
+                    FROM perfiles_usuarios f
+                    WHERE f.id = ?
+                ) AS lista_perfiles_typ )
+            WHERE p.id = ?
+        """;
+
+        try (Connection conn = DatabaseManager.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            stmt.setInt(1, idPerfilFavorito);
+            stmt.setInt(2, idPerfilActual);
+
+            int filasActualizadas = stmt.executeUpdate();
+
+            if (filasActualizadas == 0) {
+                AlertaSistema.error("No se actualizó ningún perfil. Verifica los IDs.");
+            } else {
+                AlertaSistema.info("Perfil agregado exitosamente a favoritos.");
+            }
+
+        } catch (SQLException e) {
+            AlertaSistema.error("Error al agregar vendedor a favoritos: " + e.getMessage());
+        }
+    }
+    
+@Override
+public void eliminarVendedorFavorito(int idPerfilActual, int idPerfilEliminar) {
+    LogManager.debug("Eliminando perfil " + idPerfilEliminar + " de favoritos del perfil " + idPerfilActual);
+
+    String plsql = """
+        DECLARE
+            ref_a_eliminar REF perfil_usuario_typ;
+            favoritos_actualizados lista_perfiles_typ;
+        BEGIN
+            -- Obtener el REF del perfil a eliminar
+            SELECT REF(f) INTO ref_a_eliminar
+            FROM perfiles_usuarios f
+            WHERE f.id = ?;
+
+            -- Obtener la nueva colección sin ese perfil
+            SELECT CAST(
+                MULTISET(
+                    SELECT elemento
+                    FROM (
+                        SELECT COLUMN_VALUE AS elemento
+                        FROM TABLE(
+                            SELECT p.vendedores_favoritos
+                            FROM perfiles_usuarios p
+                            WHERE p.id = ?
+                        )
+                    )
+                    WHERE elemento != ref_a_eliminar
+                ) AS lista_perfiles_typ
+            )
+            INTO favoritos_actualizados
+            FROM DUAL;
+
+            -- Actualizar la colección
+            UPDATE perfiles_usuarios
+            SET vendedores_favoritos = favoritos_actualizados
+            WHERE id = ?;
+        END;
+    """;
+
+    try (Connection conn = DatabaseManager.getConnection();
+         CallableStatement stmt = conn.prepareCall(plsql)) {
+
+        stmt.setInt(1, idPerfilEliminar);  // para SELECT REF(f)
+        stmt.setInt(2, idPerfilActual);    // para vendedores_favoritos
+        stmt.setInt(3, idPerfilActual);    // para UPDATE
+
+        stmt.execute();
+        AlertaSistema.info("Perfil eliminado exitosamente de favoritos.");
+
+    } catch (SQLException e) {
+        AlertaSistema.error("Error al eliminar vendedor de favoritos: " + e.getMessage());
+    }
 }
 
+    @Override
+    public List<PerfilUsuarioVO> obtenerVendedoresFavoritos(int perfilId) {
+        LogManager.debug("Obteniendo vendedores favoritos del perfil ID: " + perfilId);
 
+        String sql = """
+            SELECT column_value
+            FROM TABLE(
+                SELECT vendedores_favoritos
+                FROM perfiles_usuarios
+                WHERE id = ?
+            )
+        """;
 
+        List<PerfilUsuarioVO> lista = new ArrayList<>();
 
-} 
+        try (Connection conn = DatabaseManager.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            stmt.setInt(1, perfilId);
+            ResultSet rs = stmt.executeQuery();
+
+            while (rs.next()) {
+                Ref refPerfil = rs.getRef(1);  // Obtener el REF del perfil
+
+                // Obtener los datos completos del perfil usando el REF
+                PreparedStatement stmtPerfil = conn.prepareStatement("SELECT * FROM perfiles_usuarios p WHERE REF(p) = ?");
+                stmtPerfil.setRef(1, refPerfil);
+                ResultSet rsPerfil = stmtPerfil.executeQuery();
+
+                if (rsPerfil.next()) {
+                    PerfilUsuarioVO perfil = mapearPerfil(rsPerfil);
+                    lista.add(perfil);
+                }
+            }
+
+        } catch (SQLException e) {
+            LogManager.error("Error al obtener vendedores favoritos: " + e.getMessage());
+        }
+
+        return lista;
+    }
+}

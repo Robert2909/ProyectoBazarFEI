@@ -108,7 +108,7 @@ public class ProductoController {
     private Label precioLabel;
 
     @FXML
-    private AnchorPane productoAnchorPane;
+    public AnchorPane productoAnchorPane;
 
     @FXML
     private Label publicarProductoLabel;
@@ -185,7 +185,7 @@ public class ProductoController {
     
     @FXML
     void verPerfilVendedor(ActionEvent event) {
-        new CambiarVentana(productoAnchorPane, "/proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml");
+        new CambiarVentana(productoAnchorPane, "/proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml", this.perfilVendedor);
     }
 
     @FXML

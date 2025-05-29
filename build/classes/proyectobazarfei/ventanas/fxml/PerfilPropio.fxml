@@ -65,7 +65,8 @@
                   <FlowPane fx:id="productosFlowPane" prefHeight="290.0" prefWidth="1590.0" />
                </content>
             </ScrollPane>
-            <Button fx:id="editarPerfilButton" layoutX="1449.0" layoutY="110.0" mnemonicParsing="false" onMouseClicked="#configuracion" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Editar perfil" />
+            <Button fx:id="editarPerfilButton" layoutX="1449.0" layoutY="100.0" mnemonicParsing="false" onMouseClicked="#configuracion" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Editar perfil" />
+            <Button fx:id="verPerfilesFavoritosButton" layoutX="1352.0" layoutY="200.0" mnemonicParsing="false" onAction="#verPerfilesFavoritos" stylesheets="@../../resources/system/styles/BotonNormal.css" text="Ver perfiles favoritos" />
          </children>
       </Pane>
       <Pane fx:id="barraLateralPane" prefHeight="1080.0" prefWidth="300.0" styleClass="root" stylesheets="@../../resources/system/styles/BarraLateralStyle.css">

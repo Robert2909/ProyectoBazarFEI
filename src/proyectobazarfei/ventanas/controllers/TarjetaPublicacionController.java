@@ -16,6 +16,8 @@ import proyectobazarfei.system.objects.vo.ProductoVO;
 public class TarjetaPublicacionController {
     
     private AnchorPane anchorRaizGlobal;
+    
+    private ProductoVO productoAsociado;
 
     @FXML
     private AnchorPane TarjetaPublicacionAnchorPane;
@@ -38,7 +40,6 @@ public class TarjetaPublicacionController {
     @FXML
     private Label tituloLabel;
 
-    private ProductoVO productoAsociado;
 
     @FXML
     void abrirProducto(MouseEvent event) {

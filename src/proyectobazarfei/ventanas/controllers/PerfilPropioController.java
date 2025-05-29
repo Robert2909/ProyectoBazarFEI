@@ -165,6 +165,11 @@ public class PerfilPropioController {
             }
         }
     }
+    
+    @FXML
+    void verPerfilesFavoritos(ActionEvent event) {
+        new CambiarVentana(perfilPropioAnchorPane, "/proyectobazarfei/ventanas/fxml/PerfilesFavoritos.fxml");
+    }
 
     @FXML
     void perfil(MouseEvent event) throws IOException {

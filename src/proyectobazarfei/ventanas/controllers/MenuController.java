@@ -172,7 +172,6 @@ public class MenuController {
         }
     }
 
-
     @FXML
     void perfil(MouseEvent event) throws IOException {
         new CambiarVentana(menuAnchorPane, "/proyectobazarfei/ventanas/fxml/PerfilPropio.fxml");

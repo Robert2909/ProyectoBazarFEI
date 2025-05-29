@@ -9,6 +9,8 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
+import proyectobazarfei.system.methods.CambiarVentana;
+import proyectobazarfei.system.methods.LogManager;
 import proyectobazarfei.system.objects.dao.ProductoDAO;
 import proyectobazarfei.system.objects.dao.TransaccionDAO;
 import proyectobazarfei.system.objects.daoIMPL.ProductoDAOImpl;
@@ -17,6 +19,10 @@ import proyectobazarfei.system.objects.vo.ProductoVO;
 import proyectobazarfei.system.objects.vo.TransaccionVO;
 
 public class VentaEnListaController {
+    
+    private ProductoVO producto;
+    
+    private AnchorPane anchorRaizGlobal;
     
     @FXML
     private AnchorPane ventaEnListaAnchorPane;
@@ -48,9 +54,10 @@ public class VentaEnListaController {
     @FXML
     private Button verProductoButton;
     
-    public void rellenarDatosTransaccion(TransaccionVO transaccion) {
+    public void rellenarDatosTransaccion(TransaccionVO transaccion, AnchorPane anchorRaiz) {
         ProductoDAO productoDAO = new ProductoDAOImpl();
-        ProductoVO producto = productoDAO.obtenerProductoPorId(transaccion.getProducto().getId());
+        this.producto = productoDAO.obtenerProductoPorId(transaccion.getProducto().getId());
+        this.anchorRaizGlobal = anchorRaiz;
 
         if (producto != null) {
             tituloProductoLabel.setText(producto.getTitulo());
@@ -76,6 +83,7 @@ public class VentaEnListaController {
 
     @FXML
     void verProducto(ActionEvent event) {
-
+        LogManager.info("Producto abierto: " + producto.getTitulo());
+        new CambiarVentana(anchorRaizGlobal, "/proyectobazarfei/ventanas/fxml/Producto.fxml", producto);
     }
 }

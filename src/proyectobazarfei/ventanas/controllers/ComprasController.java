@@ -82,7 +82,7 @@ public class ComprasController {
 
     @FXML
     private Label ventasLabel;
-    
+       
     @FXML
     public void initialize() {
         if (usuarioSesion == null) {
@@ -110,7 +110,7 @@ public class ComprasController {
                 Node nodo = loader.load();
                 
                 VentaEnListaController controller = loader.getController();
-                controller.rellenarDatosTransaccion(transaccion);
+                controller.rellenarDatosTransaccion(transaccion, publicarProductoAnchorPane);
                 
                 listaProductosActivosFlowPane.getChildren().add(nodo);
                 

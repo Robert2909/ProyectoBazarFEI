@@ -1,6 +1,5 @@
 package proyectobazarfei.system.methods;
 
-import com.sun.tools.javac.Main;
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
 import java.io.IOException;
@@ -17,7 +16,7 @@ public class CambiarVentana {
         this(ventanaActualAnchorPane, rutaSiguienteFXML, null);
     }
 
-    // Constructor que acepta un objeto para pasar al controlador
+    // Constructor con paso de objeto al controlador
     public CambiarVentana(AnchorPane ventanaActualAnchorPane, String rutaSiguienteFXML, Object objetoParaControlador) {
         try {
             LogManager.info("Cambiando a ventana: " + rutaSiguienteFXML);
@@ -32,17 +31,26 @@ public class CambiarVentana {
             if (objetoParaControlador != null) {
                 Object controller = loader.getController();
 
-                try {
-                    Method metodo = controller.getClass().getMethod("setProducto", objetoParaControlador.getClass());
-                    metodo.invoke(controller, objetoParaControlador);
-                    LogManager.debug("Objeto pasado correctamente al controlador.");
-                } catch (NoSuchMethodException e) {
-                    LogManager.error("El controlador no tiene un método setProducto(...) compatible.");
-                } catch (Exception e) {
-                    LogManager.error("Error al pasar el objeto al controlador: " + e.getMessage());
+                // Busca un método "set..." que sea compatible con el objeto que se quiere pasar
+                boolean asignado = false;
+                for (Method metodo : controller.getClass().getMethods()) {
+                    if (metodo.getName().startsWith("set") &&
+                        metodo.getParameterCount() == 1 &&
+                        metodo.getParameterTypes()[0].isAssignableFrom(objetoParaControlador.getClass())) {
+
+                        metodo.invoke(controller, objetoParaControlador);
+                        LogManager.debug("Objeto pasado al controlador usando: " + metodo.getName());
+                        asignado = true;
+                        break;
+                    }
+                }
+
+                if (!asignado) {
+                    LogManager.error("No se encontró un método set compatible en el controlador.");
                 }
             }
 
+            // Redimensionar y centrar ventana
             Stage stage = (Stage) ventanaActualAnchorPane.getScene().getWindow();
             stage.setWidth(1920);
             stage.setHeight(1080);
@@ -57,6 +65,8 @@ public class CambiarVentana {
         } catch (IOException e) {
             LogManager.error("No se pudo cargar la ventana: " + rutaSiguienteFXML + ". Error: " + e.getMessage());
             AlertaSistema.error("Error al cambiar de ventana.");
+        } catch (Exception e) {
+            LogManager.error("Error general en cambio de ventana: " + e.getMessage());
         }
     }
 }

@@ -33,6 +33,8 @@ import proyectobazarfei.system.objects.vo.ProductoVO;
 import proyectobazarfei.system.objects.vo.UsuarioVO;
 
 public class PerfilAjenoController {
+    
+    private PerfilUsuarioVO perfil;
 
     @FXML
     private Label apodoLabel;
@@ -117,20 +119,25 @@ public class PerfilAjenoController {
     
     @FXML
     public void initialize() {
-        LogManager.info("Obteniendo productos del perfil.");
 
-        PerfilUsuarioVO perfil = ProductoController.perfilVendedor;
-
+    }
+    
+    public void setPerfil(PerfilUsuarioVO perfil) {
+        this.perfil = perfil;
+        inicializarPerfil();
+    }
+    
+    private void inicializarPerfil() {
         if (perfil == null) {
-            AlertaSistema.error("No existe un perfil asociado a este usuario ajeno.");
+            AlertaSistema.error("No se recibió perfil para mostrar.");
             return;
         }
-        
+
         UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
         UsuarioVO usuario = usuarioDAO.obtenerUsuarioPorPerfilId(perfil.getId());
-        
+
         if (usuario == null) {
-            AlertaSistema.error("No existe un usuario otorgado al perfil ajeno.");
+            AlertaSistema.error("No existe un usuario para este perfil.");
             return;
         }
 
@@ -142,12 +149,11 @@ public class PerfilAjenoController {
         if (perfil.getFotoPerfil() != null && !perfil.getFotoPerfil().isEmpty()) {
             try (InputStream imagenStream = getClass().getResourceAsStream(perfil.getFotoPerfil())) {
                 if (imagenStream != null) {
-                    Image imagen = new Image(imagenStream);
                     imagenPerfilImageView.setClip(new Circle(150, 150, 150));
-                    imagenPerfilImageView.setImage(imagen);
+                    imagenPerfilImageView.setImage(new Image(imagenStream));
                 }
             } catch (Exception e) {
-                LogManager.error("No se pudo cargar la imagen de perfil: " + perfil.getFotoPerfil());
+                LogManager.error("No se pudo cargar la imagen: " + perfil.getFotoPerfil());
             }
         }
 
@@ -163,14 +169,22 @@ public class PerfilAjenoController {
                 controller.rellenarDatosPublicacion(producto, perfilAjenoAnchorPane);
                 productosFlowPane.getChildren().add(nodo);
             } catch (IOException e) {
-                LogManager.error("No se pudo cargar tarjeta de producto: " + e.getMessage());
+                LogManager.error("Error al cargar tarjeta: " + e.getMessage());
             }
         }
     }
     
     @FXML
     void reportarPerfil(ActionEvent event) {
-        
+
+    }
+    
+    @FXML
+    void anadirFavoritos(ActionEvent event) {
+        LogManager.debug("Agregando perfil a la lista de favoritos: " + perfil.getId());
+        PerfilUsuarioDAO perfilUsuarioDAO = new PerfilUsuarioDAOImpl();
+        PerfilUsuarioVO perfilActual = perfilUsuarioDAO.obtenerPerfilPorUsuarioId(SesionManager.obtenerUsuarioSesionActiva().getId());
+        perfilUsuarioDAO.agregarVendedorFavorito(perfilActual.getId(), perfil.getId());
     }
 
     @FXML

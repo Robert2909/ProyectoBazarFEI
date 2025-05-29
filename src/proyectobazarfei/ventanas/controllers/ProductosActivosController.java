@@ -110,7 +110,7 @@ public class ProductosActivosController {
                 Node nodo = loader.load();
                 
                 VentaEnListaController controller = loader.getController();
-                controller.rellenarDatosTransaccion(transaccion);
+                controller.rellenarDatosTransaccion(transaccion, productosActivosAnchorPane);
                 
                 listaProductosActivosFlowPane.getChildren().add(nodo);
                 

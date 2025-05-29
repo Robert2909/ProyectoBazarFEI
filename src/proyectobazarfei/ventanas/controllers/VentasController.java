@@ -87,7 +87,7 @@ public class VentasController {
 
     @FXML
     private Label ventasLabel;
-    
+        
     @FXML
     public void initialize() {
         if (usuarioSesion == null) {
@@ -115,7 +115,7 @@ public class VentasController {
                 Node nodo = loader.load();
                 
                 VentaEnListaController controller = loader.getController();
-                controller.rellenarDatosTransaccion(transaccion);
+                controller.rellenarDatosTransaccion(transaccion, ventasAnchorPane);
                 
                 listaVentasFlowPane.getChildren().add(nodo);
                 
