@@ -242,59 +242,59 @@ public class UsuarioDAOImpl implements UsuarioDAO {
         return null;
     }
 
-@Override
-public UsuarioVO obtenerUsuarioPorPerfilId(int perfilId) {
-    LogManager.debug("Obteniendo usuario por ID de perfil: " + perfilId);
-    String sql = "SELECT datos_usuario FROM perfiles_usuarios WHERE id = ?";
-    UsuarioVO usuario = null;
+    @Override
+    public UsuarioVO obtenerUsuarioPorPerfilId(int perfilId) {
+        LogManager.debug("Obteniendo usuario por ID de perfil: " + perfilId);
+        String sql = "SELECT datos_usuario FROM perfiles_usuarios WHERE id = ?";
+        UsuarioVO usuario = null;
 
-    try (Connection conn = DatabaseManager.getConnection();
-         PreparedStatement stmt = conn.prepareStatement(sql)) {
+        try (Connection conn = DatabaseManager.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
 
-        stmt.setInt(1, perfilId);
-        ResultSet rs = stmt.executeQuery();
+            stmt.setInt(1, perfilId);
+            ResultSet rs = stmt.executeQuery();
 
-        Ref refUsuario = null;
-        if (rs.next()) {
-            refUsuario = rs.getRef("datos_usuario");
-        }
+            Ref refUsuario = null;
+            if (rs.next()) {
+                refUsuario = rs.getRef("datos_usuario");
+            }
 
-        if (refUsuario != null) {
-            PreparedStatement usuarioStmt = conn.prepareStatement("SELECT * FROM usuarios u WHERE REF(u) = ?");
-            usuarioStmt.setRef(1, refUsuario);
-            ResultSet usuarioRs = usuarioStmt.executeQuery();
+            if (refUsuario != null) {
+                PreparedStatement usuarioStmt = conn.prepareStatement("SELECT * FROM usuarios u WHERE REF(u) = ?");
+                usuarioStmt.setRef(1, refUsuario);
+                ResultSet usuarioRs = usuarioStmt.executeQuery();
 
-            if (usuarioRs.next()) {
-                usuario = new UsuarioVO();
-                usuario.setId(usuarioRs.getInt("id"));
-                usuario.setNombre(usuarioRs.getString("nombre"));
-                usuario.setApodo(usuarioRs.getString("apodo"));
-                usuario.setCorreo(usuarioRs.getString("correo"));
-                usuario.setContrasena(usuarioRs.getString("contrasena"));
-                usuario.setRespuestaSeguridad(usuarioRs.getString("respuesta_seguridad"));
+                if (usuarioRs.next()) {
+                    usuario = new UsuarioVO();
+                    usuario.setId(usuarioRs.getInt("id"));
+                    usuario.setNombre(usuarioRs.getString("nombre"));
+                    usuario.setApodo(usuarioRs.getString("apodo"));
+                    usuario.setCorreo(usuarioRs.getString("correo"));
+                    usuario.setContrasena(usuarioRs.getString("contrasena"));
+                    usuario.setRespuestaSeguridad(usuarioRs.getString("respuesta_seguridad"));
 
-                Ref refPregunta = usuarioRs.getRef("pregunta_seguridad");
-                if (refPregunta != null) {
-                    PreparedStatement psPregunta = conn.prepareStatement("SELECT * FROM preguntas_seguridad p WHERE REF(p) = ?");
-                    psPregunta.setRef(1, refPregunta);
-                    ResultSet rsPregunta = psPregunta.executeQuery();
+                    Ref refPregunta = usuarioRs.getRef("pregunta_seguridad");
+                    if (refPregunta != null) {
+                        PreparedStatement psPregunta = conn.prepareStatement("SELECT * FROM preguntas_seguridad p WHERE REF(p) = ?");
+                        psPregunta.setRef(1, refPregunta);
+                        ResultSet rsPregunta = psPregunta.executeQuery();
 
-                    if (rsPregunta.next()) {
-                        PreguntaSeguridadVO pregunta = new PreguntaSeguridadVO();
-                        pregunta.setId(rsPregunta.getInt("id"));
-                        pregunta.setPregunta(rsPregunta.getString("pregunta"));
-                        usuario.setPreguntaSeguridad(pregunta);
+                        if (rsPregunta.next()) {
+                            PreguntaSeguridadVO pregunta = new PreguntaSeguridadVO();
+                            pregunta.setId(rsPregunta.getInt("id"));
+                            pregunta.setPregunta(rsPregunta.getString("pregunta"));
+                            usuario.setPreguntaSeguridad(pregunta);
+                        }
                     }
                 }
             }
+
+        } catch (SQLException e) {
+            LogManager.error("Error al obtener usuario por perfil ID: " + e.getMessage());
         }
 
-    } catch (SQLException e) {
-        LogManager.error("Error al obtener usuario por perfil ID: " + e.getMessage());
+        return usuario;
     }
-
-    return usuario;
-}
 
 
 

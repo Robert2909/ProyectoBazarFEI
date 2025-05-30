@@ -3,28 +3,36 @@
 }
 
 .margen {
+    -fx-font-size: 36px;
     -fx-border-color: #ccc;
     -fx-border-radius: 10px;
     -fx-background-radius: 10px;
     -fx-background-color: white;
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
 }
-/*
+
 .margen:hover {
     -fx-background-color: #ddd;
+    -fx-font-size: 36px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
 }
-*/
+
 
 .mensaje {
     -fx-border-color: #ccc;
-    -fx-border-radius: 100px;
-    -fx-background-radius: 100px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
     -fx-background-color: white;
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
 }
 
-/*
 .mensaje:hover {
     -fx-background-color: #ddd;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.1, 0, 4);
 }
-*/

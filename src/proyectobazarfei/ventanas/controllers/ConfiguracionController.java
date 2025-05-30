@@ -174,12 +174,12 @@ public class ConfiguracionController {
     }
 
     private void bloquearCampos() {
-        cambiarApodoTextField.setEditable(false);
-        cambiarNombreTextField.setEditable(false);
-        cambiarDescripcionTextArea.setEditable(false);
-        cambiarCorreoTextField.setEditable(false);
-        cambiarContrasenaTextField.setEditable(false);
-        cambiarContrasenaRepeticionTextField.setEditable(false);
+        cambiarApodoTextField.setDisable(true);
+        cambiarNombreTextField.setDisable(true);
+        cambiarDescripcionTextArea.setDisable(true);
+        cambiarCorreoTextField.setDisable(true);
+        cambiarContrasenaTextField.setDisable(true);
+        cambiarContrasenaRepeticionTextField.setDisable(true);
     }
 
     @FXML
@@ -292,18 +292,18 @@ public class ConfiguracionController {
     }
     
     @FXML void cambiarDescripcion(ActionEvent e) {
-        cambiarDescripcionTextArea.setEditable(true);
+        cambiarDescripcionTextArea.setDisable(false);
         cambiarDescripcionTextArea.requestFocus();
     }
     
     @FXML void cambiarContrasena(ActionEvent e) {
-        cambiarContrasenaTextField.setEditable(true);
-        cambiarContrasenaRepeticionTextField.setEditable(true);
+        cambiarContrasenaTextField.setDisable(false);
+        cambiarContrasenaRepeticionTextField.setDisable(false);
         cambiarContrasenaTextField.requestFocus();
     }
 
     private void habilitarEdicion(TextField campo) {
-        campo.setEditable(true);
+        campo.setDisable(false);
         campo.requestFocus();
     }
 

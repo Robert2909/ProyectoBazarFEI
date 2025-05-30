@@ -158,7 +158,7 @@
                <content>
                   <FlowPane fx:id="imagenesFlowPane" prefHeight="765.0" prefWidth="780.0" />
                </content></ScrollPane>
-            <Button fx:id="comprarButton" layoutX="1015.0" layoutY="983.0" mnemonicParsing="false" prefWidth="613.0" stylesheets="@../../resources/system/styles/BotonConfirmacion.css" text="Comprar" />
+            <Button fx:id="comprarButton" layoutX="1015.0" layoutY="983.0" mnemonicParsing="false" onAction="#hacerCompra" prefWidth="613.0" stylesheets="@../../resources/system/styles/BotonConfirmacion.css" text="Comprar" />
             <Button fx:id="regresarButton" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#regresarVentanaAnterior" style="-fx-background-color: black; -fx-text-fill: white;" stylesheets="@../../resources/system/styles/BotonCerrar.css" text="⬅">
                <font>
                   <Font size="20.0" />

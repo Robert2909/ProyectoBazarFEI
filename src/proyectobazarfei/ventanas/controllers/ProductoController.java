@@ -187,6 +187,11 @@ public class ProductoController {
     void verPerfilVendedor(ActionEvent event) {
         new CambiarVentana(productoAnchorPane, "/proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml", this.perfilVendedor);
     }
+    
+    @FXML
+    void hacerCompra(ActionEvent event) {
+        new CambiarVentana(productoAnchorPane, "/proyectobazarfei/ventanas/fxml/Comprar.fxml", this.productoActual);
+    }
 
     @FXML
     void perfil(MouseEvent event) throws IOException {
