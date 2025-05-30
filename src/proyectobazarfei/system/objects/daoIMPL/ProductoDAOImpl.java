@@ -9,32 +9,108 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import oracle.jdbc.OracleConnection;
+import oracle.jdbc.OraclePreparedStatement;
+import oracle.sql.ARRAY;
+import oracle.sql.ArrayDescriptor;
 import oracle.sql.STRUCT;
 import proyectobazarfei.system.methods.AlertaSistema;
 import proyectobazarfei.system.methods.LogManager;
+import proyectobazarfei.system.methods.SesionManager;
+import proyectobazarfei.system.objects.dao.PerfilUsuarioDAO;
+import proyectobazarfei.system.objects.vo.PerfilUsuarioVO;
 
 public class ProductoDAOImpl implements ProductoDAO {
 
     @Override
-    public void crearProducto(ProductoVO producto) {
+    public boolean crearProducto(ProductoVO producto) {
         LogManager.debug("Creando producto: " + producto.toString());
-        String sql = "INSERT INTO productos (id, titulo, descripcion, precio, categoria) VALUES (?, ?, ?, ?, ?)";
+
+        String insertSQL = """
+            INSERT INTO productos 
+            (id, titulo, descripcion, precio, categoria, portada, metodos_pago_aceptados, imagenes) 
+            VALUES (producto_seq.NEXTVAL, ?, ?, ?, ?, ?, ?, ?)
+            RETURNING id INTO ?
+        """;
 
         try (Connection conn = DatabaseManager.getConnection();
-             PreparedStatement stmt = conn.prepareStatement(sql)) {
+             OraclePreparedStatement stmt = (OraclePreparedStatement) conn.prepareStatement(insertSQL)) {
 
-            stmt.setInt(1, producto.getId());
-            stmt.setString(2, producto.getTitulo());
-            stmt.setString(3, producto.getDescripcion());
-            stmt.setDouble(4, producto.getPrecio());
-            stmt.setString(5, producto.getCategoria());
+            stmt.setString(1, producto.getTitulo());
+            stmt.setString(2, producto.getDescripcion());
+            stmt.setDouble(3, producto.getPrecio());
+            stmt.setString(4, producto.getCategoria());
+            stmt.setString(5, producto.getPortada());
+
+            Array metodosArray = conn.unwrap(oracle.jdbc.OracleConnection.class)
+                .createOracleArray("SYS.ODCIVARCHAR2LIST", producto.getMetodosPagoAceptados().toArray());
+            Array imagenesArray = conn.unwrap(oracle.jdbc.OracleConnection.class)
+                .createOracleArray("SYS.ODCIVARCHAR2LIST", producto.getImagenes().toArray());
+
+            stmt.setArray(6, metodosArray);
+            stmt.setArray(7, imagenesArray);
+            stmt.registerReturnParameter(8, java.sql.Types.INTEGER);
             stmt.executeUpdate();
 
-            // Imágenes deben insertarse por separado si están en una tabla anidada
+            ResultSet rs = stmt.getReturnResultSet();
+            int idGenerado = -1;
+            if (rs.next()) {
+                idGenerado = rs.getInt(1);
+                producto.setId(idGenerado);
+            }
+
+            LogManager.info("Producto creado con ID: " + idGenerado);
+
+            // Asociar al perfil actual
+            PerfilUsuarioDAO perfilUsuarioDAO = new PerfilUsuarioDAOImpl();
+            PerfilUsuarioVO perfilActual = perfilUsuarioDAO.obtenerPerfilPorUsuarioId(SesionManager.obtenerUsuarioSesionActiva().getId());
+            int idPerfil = perfilActual.getId();
+
+            String sql = """
+                DECLARE
+                    prod_ref REF producto_typ;
+                BEGIN
+                    SELECT REF(p) INTO prod_ref FROM productos p WHERE p.id = :1;
+
+                    UPDATE perfiles_usuarios pf
+                    SET pf.productos = pf.productos MULTISET UNION DISTINCT
+                        CAST(MULTISET(SELECT prod_ref FROM DUAL) AS lista_productos_typ)
+                    WHERE pf.id = :2;
+                END;
+            """;
+
+            try (PreparedStatement ps = conn.prepareStatement(sql)) {
+                ps.setInt(1, producto.getId());
+                ps.setInt(2, perfilActual.getId());
+                ps.executeUpdate();
+            } catch (SQLException e) {
+                System.err.println("Error al asociar producto al perfil: " + e.getMessage());
+            }
+
+            LogManager.info("Producto asociado a perfil con ID: " + idPerfil);
+            return true;
 
         } catch (SQLException e) {
-            AlertaSistema.error("Error al crear producto: " + e.getMessage());
+            AlertaSistema.error("Error al crear y asociar producto: " + e.getMessage());
+            e.printStackTrace();
+            return false;
         }
+    }
+
+
+
+    
+    private Array crearArrayDeStrings(Connection conn, List<String> lista) throws SQLException {
+        if (lista == null || lista.isEmpty()) {
+            return null;
+        }
+
+        OracleConnection oracleConn = conn.unwrap(OracleConnection.class);
+
+        // Asegúrate de que ODCIVARCHAR2LIST existe en tu BD (es un tipo incorporado)
+        ArrayDescriptor descriptor = ArrayDescriptor.createDescriptor("ODCIVARCHAR2LIST", oracleConn);
+
+        return new ARRAY(descriptor, oracleConn, lista.toArray(new String[0]));
     }
 
     @Override
@@ -168,6 +244,12 @@ public class ProductoDAOImpl implements ProductoDAO {
         }
 
         p.setPortada(rs.getString("portada"));
+        
+        Array metodosArray = rs.getArray("metodos_pago_aceptados");
+        if (metodosArray != null) {
+            p.setMetodosPagoAceptados(Arrays.asList((String[]) metodosArray.getArray()));
+        }
+
         return p;
     }
     
@@ -188,6 +270,11 @@ public class ProductoDAOImpl implements ProductoDAO {
         }
 
         p.setPortada((String) attrs[6]);
+        
+        Array metodosArray = (Array) attrs[7];
+        if (metodosArray != null) {
+            p.setMetodosPagoAceptados(Arrays.asList((String[]) metodosArray.getArray()));
+        }
 
         return p;
     }

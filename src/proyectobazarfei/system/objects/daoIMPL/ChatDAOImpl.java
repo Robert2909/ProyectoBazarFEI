@@ -171,7 +171,7 @@ public class ChatDAOImpl implements ChatDAO {
                 new java.sql.Date(mensaje.getFechaEnvio().getTime()),
                 mensaje.getHoraEnvio(),
                 mensaje.getTexto(),
-                remitenteRef
+                remitenteRef    
             };
             STRUCT mensajeStruct = new STRUCT(structDesc, oracleConn, attrs);
 

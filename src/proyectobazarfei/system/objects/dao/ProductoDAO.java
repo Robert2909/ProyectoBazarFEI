@@ -4,7 +4,7 @@ import proyectobazarfei.system.objects.vo.ProductoVO;
 import java.util.List;
 
 public interface ProductoDAO {
-    void crearProducto(ProductoVO producto);
+    boolean crearProducto(ProductoVO producto);
     ProductoVO obtenerProductoPorId(int id);
     List<ProductoVO> obtenerProductosPorPerfilId(int perfilId);
     List<ProductoVO> buscarProductos(String criterioBusqueda);

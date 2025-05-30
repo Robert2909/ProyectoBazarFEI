@@ -17,27 +17,60 @@ public class TransaccionDAOImpl implements TransaccionDAO {
     @Override
     public void registrarTransaccion(TransaccionVO transaccion) {
         LogManager.debug("Registrando transacción: " + transaccion.toString());
-        String sql = "INSERT INTO transacciones (id, producto, fecha_creacion, hora_creacion, estado, metodo_pago, calificacion, comentario, vendedor, comprador) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO transacciones VALUES (transaccion_typ(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?))";
 
         try (Connection conn = DatabaseManager.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
 
             stmt.setInt(1, transaccion.getId());
-            stmt.setInt(2, transaccion.getProducto().getId());
-            stmt.setDate(3, new java.sql.Date(transaccion.getFechaCreacion().getTime()));
-            stmt.setString(4, transaccion.getHoraCreacion());
-            stmt.setString(5, transaccion.getEstado());
-            stmt.setString(6, transaccion.getMetodoPago());
-            if (transaccion.getCalificacion() != null) {
-                stmt.setInt(7, transaccion.getCalificacion());
-            } else {
-                stmt.setNull(7, Types.INTEGER);
+
+            // producto
+            PreparedStatement refStmt = conn.prepareStatement("SELECT REF(p) FROM productos p WHERE p.id = ?");
+            refStmt.setInt(1, transaccion.getProducto().getId());
+            ResultSet rsRef = refStmt.executeQuery();
+            Ref refProducto = null;
+            if (rsRef.next()) {
+                refProducto = (Ref) rsRef.getObject(1);
             }
-            stmt.setString(8, transaccion.getComentario());
-            stmt.setInt(9, transaccion.getVendedor().getId());
-            stmt.setInt(10, transaccion.getComprador().getId());
+            stmt.setRef(2, refProducto);
+
+            // métodos y entrega
+            stmt.setString(3, transaccion.getMetodoPagoElegido());
+            stmt.setString(4, transaccion.getMetodoEntregaElegido());
+            stmt.setString(5, transaccion.getLugarEntrega());
+            stmt.setString(6, transaccion.getHoraEntrega());
+
+            // fechas
+            stmt.setDate(7, new java.sql.Date(transaccion.getFechaCreacion().getTime()));
+            stmt.setString(8, transaccion.getHoraCreacion());
+
+            // estado, calificación, comentario
+            stmt.setString(9, transaccion.getEstado());
+            if (transaccion.getCalificacion() != null) {
+                stmt.setInt(10, transaccion.getCalificacion());
+            } else {
+                stmt.setNull(10, Types.INTEGER);
+            }
+            stmt.setString(11, transaccion.getComentario());
+
+            // vendedor
+            PreparedStatement refVendedorStmt = conn.prepareStatement("SELECT REF(p) FROM perfiles_usuarios p WHERE p.id = ?");
+            refVendedorStmt.setInt(1, transaccion.getVendedor().getId());
+            ResultSet rsVend = refVendedorStmt.executeQuery();
+            if (rsVend.next()) {
+                stmt.setRef(12, (Ref) rsVend.getObject(1));
+            }
+
+            // comprador
+            PreparedStatement refCompradorStmt = conn.prepareStatement("SELECT REF(p) FROM perfiles_usuarios p WHERE p.id = ?");
+            refCompradorStmt.setInt(1, transaccion.getComprador().getId());
+            ResultSet rsComp = refCompradorStmt.executeQuery();
+            if (rsComp.next()) {
+                stmt.setRef(13, (Ref) rsComp.getObject(1));
+            }
 
             stmt.executeUpdate();
+
 
         } catch (SQLException e) {
             System.err.println("Error al registrar transacción: " + e.getMessage());
@@ -175,56 +208,78 @@ public class TransaccionDAOImpl implements TransaccionDAO {
         TransaccionVO t = new TransaccionVO();
         Connection conn = rs.getStatement().getConnection();
 
-        // Producto
+        // === Producto ===
         Ref productoRef = rs.getRef("producto");
-        PreparedStatement productoStmt = conn.prepareStatement("SELECT * FROM productos p WHERE REF(p) = ?");
-        productoStmt.setRef(1, productoRef);
-        ResultSet productoRs = productoStmt.executeQuery();
         ProductoVO producto = new ProductoVO();
-        if (productoRs.next()) {
-            producto.setId(productoRs.getInt("id"));
-            producto.setTitulo(productoRs.getString("titulo"));
-            producto.setDescripcion(productoRs.getString("descripcion"));
-            producto.setPrecio(productoRs.getDouble("precio"));
-            producto.setCategoria(productoRs.getString("categoria"));
-            producto.setPortada(productoRs.getString("portada"));
+        try (PreparedStatement stmt = conn.prepareStatement("SELECT * FROM productos p WHERE REF(p) = ?")) {
+            stmt.setRef(1, productoRef);
+            try (ResultSet prs = stmt.executeQuery()) {
+                if (prs.next()) {
+                    producto.setId(prs.getInt("id"));
+                    producto.setTitulo(prs.getString("titulo"));
+                    producto.setDescripcion(prs.getString("descripcion"));
+                    producto.setPrecio(prs.getDouble("precio"));
+                    producto.setCategoria(prs.getString("categoria"));
+                    producto.setPortada(prs.getString("portada"));
+
+                    Array imagenesArray = prs.getArray("imagenes");
+                    if (imagenesArray != null) {
+                        producto.setImagenes(List.of((String[]) imagenesArray.getArray()));
+                    }
+
+                    Array metodosPagoArray = prs.getArray("metodos_pago_aceptados");
+                    if (metodosPagoArray != null) {
+                        producto.setMetodosPagoAceptados(List.of((String[]) metodosPagoArray.getArray()));
+                    }
+                }
+            }
         }
         t.setProducto(producto);
 
-        // Datos básicos de transacción
+        // === Atributos básicos de transacción ===
         t.setId(rs.getInt("id"));
         t.setFechaCreacion(rs.getDate("fecha_creacion"));
         t.setHoraCreacion(rs.getString("hora_creacion"));
         t.setEstado(rs.getString("estado"));
-        t.setMetodoPago(rs.getString("metodo_pago"));
-        t.setCalificacion(rs.getInt("calificacion"));
+
+        // Nuevos campos de método de pago y entrega
+        t.setMetodoPagoElegido(rs.getString("metodo_pago_elegido"));
+        t.setMetodoEntregaElegido(rs.getString("metodo_entrega_elegido"));
+        t.setLugarEntrega(rs.getString("lugar_entrega")); // puede ser null
+        t.setHoraEntrega(rs.getString("hora_entrega"));   // puede ser null
+
+        int calif = rs.getInt("calificacion");
+        t.setCalificacion(rs.wasNull() ? null : calif);
         t.setComentario(rs.getString("comentario"));
 
-        // Vendedor
+        // === Vendedor ===
         Ref vendedorRef = rs.getRef("vendedor");
-        PreparedStatement vendedorStmt = conn.prepareStatement("SELECT * FROM perfiles_usuarios p WHERE REF(p) = ?");
-        vendedorStmt.setRef(1, vendedorRef);
-        ResultSet vendedorRs = vendedorStmt.executeQuery();
         PerfilUsuarioVO vendedor = new PerfilUsuarioVO();
-        if (vendedorRs.next()) {
-            vendedor.setId(vendedorRs.getInt("id"));
-            vendedor.setDescripcion(vendedorRs.getString("descripcion"));
+        try (PreparedStatement stmt = conn.prepareStatement("SELECT * FROM perfiles_usuarios p WHERE REF(p) = ?")) {
+            stmt.setRef(1, vendedorRef);
+            try (ResultSet rsVend = stmt.executeQuery()) {
+                if (rsVend.next()) {
+                    vendedor.setId(rsVend.getInt("id"));
+                    vendedor.setDescripcion(rsVend.getString("descripcion"));
+                }
+            }
         }
         t.setVendedor(vendedor);
 
-        // Comprador
+        // === Comprador ===
         Ref compradorRef = rs.getRef("comprador");
-        PreparedStatement compradorStmt = conn.prepareStatement("SELECT * FROM perfiles_usuarios p WHERE REF(p) = ?");
-        compradorStmt.setRef(1, compradorRef);
-        ResultSet compradorRs = compradorStmt.executeQuery();
         PerfilUsuarioVO comprador = new PerfilUsuarioVO();
-        if (compradorRs.next()) {
-            comprador.setId(compradorRs.getInt("id"));
-            comprador.setDescripcion(compradorRs.getString("descripcion"));
+        try (PreparedStatement stmt = conn.prepareStatement("SELECT * FROM perfiles_usuarios p WHERE REF(p) = ?")) {
+            stmt.setRef(1, compradorRef);
+            try (ResultSet rsComp = stmt.executeQuery()) {
+                if (rsComp.next()) {
+                    comprador.setId(rsComp.getInt("id"));
+                    comprador.setDescripcion(rsComp.getString("descripcion"));
+                }
+            }
         }
         t.setComprador(comprador);
 
         return t;
     }
-
 } 

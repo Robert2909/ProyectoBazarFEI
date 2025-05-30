@@ -3476,3 +3476,1835 @@ https://docs.oracle.com/error-help/db/ora-22880/
 [2025-05-29 22:30:05] [DEBUG] Obteniendo perfil por ID: 3
 [2025-05-29 22:30:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
 [2025-05-29 22:30:05] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:09] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:09] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-29 22:31:09] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:10] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:10] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:10] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:10] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:10] [DEBUG] Obteniendo todos los productos...
+[2025-05-29 22:31:10] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:12] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-29 22:31:12] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:12] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:12] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:12] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo chats por el id del perfil: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:13] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:13] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:14] [INFO] Abriendo chat con luisg
+[2025-05-29 22:31:14] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:14] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:14] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:14] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:14] [DEBUG] Obteniendo chat por id: 2
+[2025-05-29 22:31:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:15] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:15] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-29 22:31:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:15] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-29 22:31:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:15] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:15] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:15] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:15] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:15] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:15] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:22] [INFO] Abriendo chat con ana.t
+[2025-05-29 22:31:22] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:22] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:22] [DEBUG] Obteniendo chat por id: 3
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:22] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:22] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:23] [INFO] Abriendo chat con luisg
+[2025-05-29 22:31:23] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:23] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:23] [DEBUG] Obteniendo chat por id: 2
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:23] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:23] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:23] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:24] [INFO] Abriendo chat con marilop
+[2025-05-29 22:31:24] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:24] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:24] [DEBUG] Obteniendo chat por id: 1
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:24] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:24] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:24] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:31:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:24] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:29] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-05-29 22:31:29] [INFO] Obteniendo productos del perfil.
+[2025-05-29 22:31:29] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:29] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:29] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:29] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:29] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:29] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:29] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-05-29 22:31:29] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:36] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-29 22:31:37] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/ProductosActivos.fxml
+[2025-05-29 22:31:37] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:37] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:37] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:37] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:37] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:37] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:37] [DEBUG] Obteniendo productos activos por id de perfil: 1
+[2025-05-29 22:31:37] [DEBUG] Obteniendo transacciones desde perfil: 1, tipo: vendedor, estado: En proceso
+[2025-05-29 22:31:37] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:37] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:37] [DEBUG] Obteniendo mensaje por id: 6
+[2025-05-29 22:31:37] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:39] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-29 22:31:39] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:39] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:39] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:39] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:39] [DEBUG] Obteniendo chats por el id del perfil: 1
+[2025-05-29 22:31:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:39] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:39] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-29 22:31:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:39] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-29 22:31:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:31:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:40] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:41] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Compras.fxml
+[2025-05-29 22:31:41] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:41] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:41] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:41] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:41] [DEBUG] Obteniendo compras por id de perfil: 1
+[2025-05-29 22:31:41] [DEBUG] Obteniendo transacciones desde perfil: 1 de tipo: comprador
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:41] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:41] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:41] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:41] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:41] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:41] [DEBUG] Obteniendo mensaje por id: 2
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:41] [DEBUG] Obteniendo mensaje por id: 2
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:41] [DEBUG] Obteniendo mensaje por id: 3
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:41] [DEBUG] Obteniendo mensaje por id: 10
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:41] [DEBUG] Obteniendo mensaje por id: 8
+[2025-05-29 22:31:41] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:42] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Ventas.fxml
+[2025-05-29 22:31:42] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:42] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:42] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:42] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:42] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:42] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:42] [DEBUG] Obteniendo compras por id de perfil: 1
+[2025-05-29 22:31:42] [DEBUG] Obteniendo transacciones desde perfil: 1 de tipo: vendedor
+[2025-05-29 22:31:42] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:42] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:42] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:42] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:42] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:42] [DEBUG] Mapeando transacción...
+[2025-05-29 22:31:42] [DEBUG] Obteniendo mensaje por id: 1
+[2025-05-29 22:31:42] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:42] [DEBUG] Obteniendo mensaje por id: 1
+[2025-05-29 22:31:42] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:42] [DEBUG] Obteniendo mensaje por id: 5
+[2025-05-29 22:31:42] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:43] [DEBUG] Obteniendo mensaje por id: 11
+[2025-05-29 22:31:43] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:43] [DEBUG] Obteniendo mensaje por id: 6
+[2025-05-29 22:31:43] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:43] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Configuracion.fxml
+[2025-05-29 22:31:43] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:31:43] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:43] [DEBUG] Mapeando usuario...
+[2025-05-29 22:31:43] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:31:43] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:31:43] [DEBUG] Mapeando perfil...
+[2025-05-29 22:31:44] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Ayuda.fxml
+[2025-05-29 22:35:47] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:35:47] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-29 22:35:47] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:48] [DEBUG] Mapeando usuario...
+[2025-05-29 22:35:48] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:35:48] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:48] [DEBUG] Mapeando usuario...
+[2025-05-29 22:35:48] [DEBUG] Obteniendo todos los productos...
+[2025-05-29 22:35:48] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:51] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-29 22:35:51] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:35:51] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:51] [DEBUG] Mapeando usuario...
+[2025-05-29 22:35:51] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:35:51] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo chats por el id del perfil: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:52] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:52] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-29 22:35:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:53] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:53] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:35:53] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:53] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:54] [INFO] Abriendo chat con ana.t
+[2025-05-29 22:35:54] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Mapeando usuario...
+[2025-05-29 22:35:54] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:54] [DEBUG] Obteniendo chat por id: 3
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Mapeando perfil...
+[2025-05-29 22:35:54] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-29 22:35:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:35:54] [DEBUG] Mapeando perfil...
+[2025-05-29 22:36:11] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-05-29 22:36:11] [INFO] Obteniendo productos del perfil.
+[2025-05-29 22:36:11] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:36:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:11] [DEBUG] Mapeando usuario...
+[2025-05-29 22:36:11] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-29 22:36:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:11] [DEBUG] Mapeando perfil...
+[2025-05-29 22:36:11] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-05-29 22:36:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:14] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-29 22:36:14] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:36:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:14] [DEBUG] Mapeando usuario...
+[2025-05-29 22:36:14] [DEBUG] Obteniendo todos los productos...
+[2025-05-29 22:36:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:18] [INFO] Producto abierto: Playera FEI
+[2025-05-29 22:36:18] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-29 22:36:18] [DEBUG] Obteniendo perfil por producto ID: 8
+[2025-05-29 22:36:18] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:18] [DEBUG] Mapeando perfil...
+[2025-05-29 22:36:18] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-29 22:36:21] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-05-29 22:36:21] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-29 22:36:21] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:21] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-05-29 22:36:21] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:21] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-05-29 22:36:25] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-29 22:36:25] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-29 22:36:25] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:25] [DEBUG] Mapeando usuario...
+[2025-05-29 22:36:25] [DEBUG] Obteniendo todos los productos...
+[2025-05-29 22:36:25] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-29 22:36:26] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 05:59:48] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 05:59:48] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 05:59:48] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 05:59:49] [DEBUG] Mapeando usuario...
+[2025-05-30 05:59:49] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 05:59:49] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 05:59:49] [DEBUG] Mapeando usuario...
+[2025-05-30 05:59:49] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 05:59:49] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 05:59:52] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:04:20] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:04:21] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:04:21] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:04:21] [DEBUG] Mapeando usuario...
+[2025-05-30 06:04:22] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:04:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:04:22] [DEBUG] Mapeando usuario...
+[2025-05-30 06:04:22] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:04:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:04:25] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:06:01] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:06:01] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:06:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:06:02] [DEBUG] Mapeando usuario...
+[2025-05-30 06:06:02] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:06:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:06:02] [DEBUG] Mapeando usuario...
+[2025-05-30 06:06:02] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:06:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:06:05] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:07:57] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:07:58] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:07:58] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:07:58] [DEBUG] Mapeando usuario...
+[2025-05-30 06:07:58] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:07:59] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:07:59] [DEBUG] Mapeando usuario...
+[2025-05-30 06:07:59] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:07:59] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:08:02] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:12:35] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:12:35] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:12:35] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:12:36] [DEBUG] Mapeando usuario...
+[2025-05-30 06:12:36] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:12:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:12:36] [DEBUG] Mapeando usuario...
+[2025-05-30 06:12:36] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:12:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:12:40] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:12:42] [ADVERTENCIA] El título no puede estar vacío.
+[2025-05-30 06:12:55] [ADVERTENCIA] Debes seleccionar una categoría válida.
+[2025-05-30 06:13:00] [ADVERTENCIA] Debes seleccionar una imagen de portada.
+[2025-05-30 06:13:10] [ADVERTENCIA] Debes seleccionar al menos un método de pago.
+[2025-05-30 06:13:13] [ADVERTENCIA] El contenido contiene palabras inapropiadas: pene
+[2025-05-30 06:13:20] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@7f51a26
+[2025-05-30 06:13:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:13:23] [ERROR] Error al crear producto: ORA-17023: Función no soportada: createArrayOf
+https://docs.oracle.com/error-help/db/ora-17023/
+[2025-05-30 06:13:25] [INFO] Producto publicado con éxito.
+[2025-05-30 06:13:25] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 06:17:20] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 06:17:20] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:17:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:17:20] [DEBUG] Mapeando usuario...
+[2025-05-30 06:17:20] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:17:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:17:56] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:17:57] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:17:57] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:17:58] [DEBUG] Mapeando usuario...
+[2025-05-30 06:17:58] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:17:58] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:17:58] [DEBUG] Mapeando usuario...
+[2025-05-30 06:17:58] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:17:58] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:18:35] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:19:04] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@13638f6e
+[2025-05-30 06:19:04] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:19:08] [ERROR] Error al crear producto: ORA-17074: Patrón de nombre no válido: ODCIVARCHAR2LIST
+https://docs.oracle.com/error-help/db/ora-17074/
+[2025-05-30 06:19:10] [INFO] Producto publicado con éxito.
+[2025-05-30 06:19:10] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 06:19:10] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 06:19:11] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:19:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:19:11] [DEBUG] Mapeando usuario...
+[2025-05-30 06:19:11] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:19:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:33:56] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:33:56] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:33:56] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:33:57] [DEBUG] Mapeando usuario...
+[2025-05-30 06:33:58] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:33:58] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:33:58] [DEBUG] Mapeando usuario...
+[2025-05-30 06:33:58] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:33:58] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:00] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-30 06:34:00] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:34:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Mapeando usuario...
+[2025-05-30 06:34:01] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:01] [DEBUG] Obteniendo chats por el id del perfil: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:01] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:01] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:01] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:01] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:01] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:01] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-30 06:34:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:02] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-30 06:34:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:02] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:02] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 06:34:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:02] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:03] [INFO] Abriendo chat con ana.t
+[2025-05-30 06:34:03] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Mapeando usuario...
+[2025-05-30 06:34:03] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:03] [DEBUG] Obteniendo chat por id: 3
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:03] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 06:34:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:03] [DEBUG] Mapeando perfil...
+[2025-05-30 06:34:05] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:34:23] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@453b5e79
+[2025-05-30 06:34:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:26] [ERROR] Error al crear y asociar producto: ORA-17074: Patrón de nombre no válido: VARCHAR2_TAB_TYP
+https://docs.oracle.com/error-help/db/ora-17074/
+[2025-05-30 06:34:27] [INFO] Producto publicado con éxito.
+[2025-05-30 06:34:27] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 06:34:28] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 06:34:28] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:34:28] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:34:28] [DEBUG] Mapeando usuario...
+[2025-05-30 06:34:28] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:34:28] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:40:50] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:40:50] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:40:50] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:40:51] [DEBUG] Mapeando usuario...
+[2025-05-30 06:40:51] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:40:51] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:40:51] [DEBUG] Mapeando usuario...
+[2025-05-30 06:40:51] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:40:51] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:40:56] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:41:04] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@26ddfd69
+[2025-05-30 06:41:04] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:41:06] [ERROR] Error al crear y asociar producto: ORA-00904: "ID_PRODUCTO": identificador no válido
+
+https://docs.oracle.com/error-help/db/ora-00904/
+[2025-05-30 06:41:07] [INFO] Producto publicado con éxito.
+[2025-05-30 06:41:07] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 06:43:22] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:43:22] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:43:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:43:23] [DEBUG] Mapeando usuario...
+[2025-05-30 06:43:23] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:43:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:43:23] [DEBUG] Mapeando usuario...
+[2025-05-30 06:43:23] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:43:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:10] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:44:11] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:44:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:11] [DEBUG] Mapeando usuario...
+[2025-05-30 06:44:11] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:44:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:12] [DEBUG] Mapeando usuario...
+[2025-05-30 06:44:12] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:44:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:29] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:44:36] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@422592d
+[2025-05-30 06:44:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:36] [INFO] Producto creado con ID: 17
+[2025-05-30 06:44:36] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:44:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:36] [DEBUG] Mapeando usuario...
+[2025-05-30 06:44:36] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 06:44:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:36] [DEBUG] Mapeando perfil...
+[2025-05-30 06:44:37] [ERROR] Error al crear y asociar producto: ORA-06550: línea 6, columna 78:
+PL/SQL: ORA-01747: especificación no válida de usuario.tabla.columna, tabla.columna o columna
+ORA-06550: línea 5, columna 9:
+PL/SQL: SQL Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+[2025-05-30 06:44:39] [INFO] Producto publicado con éxito.
+[2025-05-30 06:44:39] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 06:44:39] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 06:44:39] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:44:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:40] [DEBUG] Mapeando usuario...
+[2025-05-30 06:44:40] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:44:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:44:40] [ERROR] No se encontró la portada: /C:\Users\alfre\Desktop\productoGenerico.png
+[2025-05-30 06:49:22] [INFO] Producto abierto: asd
+[2025-05-30 06:49:22] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 06:49:22] [DEBUG] Obteniendo perfil por producto ID: 17
+[2025-05-30 06:49:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:49:22] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 06:49:22] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 06:49:25] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-05-30 06:49:26] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-05-30 06:49:26] [INFO] Obteniendo productos del perfil.
+[2025-05-30 06:49:26] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:49:26] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:49:26] [DEBUG] Mapeando usuario...
+[2025-05-30 06:49:26] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 06:49:26] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:49:26] [DEBUG] Mapeando perfil...
+[2025-05-30 06:49:26] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-05-30 06:49:26] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:49:40] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 06:49:40] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:49:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:49:40] [DEBUG] Mapeando usuario...
+[2025-05-30 06:49:40] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:49:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:49:40] [ERROR] No se encontró la portada: /C:\Users\alfre\Desktop\productoGenerico.png
+[2025-05-30 06:49:47] [INFO] Producto abierto: asd
+[2025-05-30 06:49:47] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 06:49:47] [DEBUG] Obteniendo perfil por producto ID: 17
+[2025-05-30 06:49:47] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:49:47] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 06:49:47] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 06:52:14] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:52:14] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 06:52:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:52:15] [DEBUG] Mapeando usuario...
+[2025-05-30 06:52:15] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 06:52:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:52:15] [DEBUG] Mapeando usuario...
+[2025-05-30 06:52:15] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 06:52:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:52:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Desktop\productoGenerico.png
+[2025-05-30 06:52:19] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 06:52:30] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@40294cbc
+[2025-05-30 06:52:30] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:52:32] [ERROR] Error al crear y asociar producto: ORA-17074: Patrón de nombre no válido: VARCHAR2_TAB_TYP
+https://docs.oracle.com/error-help/db/ora-17074/
+[2025-05-30 06:52:34] [ERROR] No se pudo publicar el producto. Inténtalo de nuevo.
+[2025-05-30 06:52:35] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@1d107ebf
+[2025-05-30 06:52:35] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 06:52:38] [ERROR] Error al crear y asociar producto: ORA-17074: Patrón de nombre no válido: VARCHAR2_TAB_TYP
+https://docs.oracle.com/error-help/db/ora-17074/
+[2025-05-30 06:52:39] [ERROR] No se pudo publicar el producto. Inténtalo de nuevo.
+[2025-05-30 07:14:08] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:14:08] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:14:09] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:14:11] [DEBUG] Mapeando usuario...
+[2025-05-30 07:14:12] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:14:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:14:12] [DEBUG] Mapeando usuario...
+[2025-05-30 07:14:12] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:14:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:14:17] [ERROR] Error al obtener la lista de productos.
+[2025-05-30 07:15:13] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:15:13] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:15:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:15:20] [DEBUG] Mapeando usuario...
+[2025-05-30 07:15:20] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:15:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:15:20] [DEBUG] Mapeando usuario...
+[2025-05-30 07:15:21] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:15:21] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:15:36] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:16:02] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@6ea7d432
+[2025-05-30 07:16:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:16:03] [ERROR] Error al crear y asociar producto: ORA-17074: Patrón de nombre no válido: VARCHAR2_TAB_TYP
+https://docs.oracle.com/error-help/db/ora-17074/
+[2025-05-30 07:16:05] [ERROR] No se pudo publicar el producto. Inténtalo de nuevo.
+[2025-05-30 07:21:56] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:21:57] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:21:57] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:21:59] [DEBUG] Mapeando usuario...
+[2025-05-30 07:21:59] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:21:59] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:21:59] [DEBUG] Mapeando usuario...
+[2025-05-30 07:21:59] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:21:59] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:22:03] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:22:12] [ADVERTENCIA] Debes seleccionar al menos un método de pago.
+[2025-05-30 07:22:13] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@7f18fc98
+[2025-05-30 07:22:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:22:16] [ERROR] Error al crear y asociar producto: ORA-02289: no existe la secuencia
+
+https://docs.oracle.com/error-help/db/ora-02289/
+[2025-05-30 07:22:19] [ERROR] No se pudo publicar el producto. Inténtalo de nuevo.
+[2025-05-30 07:22:52] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@592cf314
+[2025-05-30 07:22:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:22:53] [INFO] Producto creado con ID: 17
+[2025-05-30 07:22:53] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:22:53] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:22:53] [DEBUG] Mapeando usuario...
+[2025-05-30 07:22:53] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 07:22:53] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:22:53] [DEBUG] Mapeando perfil...
+[2025-05-30 07:23:11] [ERROR] Error al crear y asociar producto: ORA-06550: línea 5, columna 16:
+PL/SQL: ORA-00942: la tabla o vista no existe
+ORA-06550: línea 5, columna 9:
+PL/SQL: SQL Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+[2025-05-30 07:23:13] [ERROR] No se pudo publicar el producto. Inténtalo de nuevo.
+[2025-05-30 07:23:29] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:23:29] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:23:29] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:23:31] [DEBUG] Mapeando usuario...
+[2025-05-30 07:23:31] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:23:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:23:31] [DEBUG] Mapeando usuario...
+[2025-05-30 07:23:31] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:23:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:23:32] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:23:40] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:23:47] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@30c00783
+[2025-05-30 07:23:47] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:23:47] [INFO] Producto creado con ID: 19
+[2025-05-30 07:23:47] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:23:47] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:23:48] [DEBUG] Mapeando usuario...
+[2025-05-30 07:23:48] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 07:23:48] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:23:48] [DEBUG] Mapeando perfil...
+[2025-05-30 07:23:48] [ERROR] Error al crear y asociar producto: ORA-06550: línea 5, columna 16:
+PL/SQL: ORA-00942: la tabla o vista no existe
+ORA-06550: línea 5, columna 9:
+PL/SQL: SQL Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+[2025-05-30 07:23:51] [ERROR] No se pudo publicar el producto. Inténtalo de nuevo.
+[2025-05-30 07:25:07] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:25:07] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:25:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:08] [DEBUG] Mapeando usuario...
+[2025-05-30 07:25:09] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:25:09] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:09] [DEBUG] Mapeando usuario...
+[2025-05-30 07:25:09] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:25:09] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:25:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:25:20] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:25:32] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@44b4c9e0
+[2025-05-30 07:25:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:32] [INFO] Producto creado con ID: 21
+[2025-05-30 07:25:32] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:25:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:32] [DEBUG] Mapeando usuario...
+[2025-05-30 07:25:32] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 07:25:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:33] [DEBUG] Mapeando perfil...
+[2025-05-30 07:25:35] [ERROR] Error al crear y asociar producto: ORA-06550: línea 7, columna 78:
+PL/SQL: ORA-01747: especificación no válida de usuario.tabla.columna, tabla.columna o columna
+ORA-06550: línea 6, columna 9:
+PL/SQL: SQL Statement ignored
+
+https://docs.oracle.com/error-help/db/ora-06550/
+[2025-05-30 07:25:36] [ERROR] No se pudo publicar el producto. Inténtalo de nuevo.
+[2025-05-30 07:25:38] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:25:38] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:25:38] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:38] [DEBUG] Mapeando usuario...
+[2025-05-30 07:25:38] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:25:38] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:25:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:25:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:25:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:09] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:29:10] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:29:10] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:11] [DEBUG] Mapeando usuario...
+[2025-05-30 07:29:11] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:29:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:11] [DEBUG] Mapeando usuario...
+[2025-05-30 07:29:11] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:29:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:12] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:12] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:12] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:15] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:29:28] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@4d739919
+[2025-05-30 07:29:28] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:28] [INFO] Producto creado con ID: 23
+[2025-05-30 07:29:28] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:29:28] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:28] [DEBUG] Mapeando usuario...
+[2025-05-30 07:29:28] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 07:29:28] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:28] [DEBUG] Mapeando perfil...
+[2025-05-30 07:29:28] [INFO] Producto asociado a perfil con ID: 1
+[2025-05-30 07:29:31] [INFO] Producto publicado con éxito.
+[2025-05-30 07:29:31] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 07:29:32] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:29:32] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:29:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:32] [DEBUG] Mapeando usuario...
+[2025-05-30 07:29:32] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:29:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:33] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:33] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:33] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:33] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:38] [INFO] Producto abierto: ertyerty
+[2025-05-30 07:29:38] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:29:39] [DEBUG] Obteniendo perfil por producto ID: 23
+[2025-05-30 07:29:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:39] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 07:29:39] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 07:29:40] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-05-30 07:29:54] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:29:54] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:29:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:54] [DEBUG] Mapeando usuario...
+[2025-05-30 07:29:54] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:29:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:29:55] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:55] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:55] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:55] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:29:59] [INFO] Producto abierto: ertyerty
+[2025-05-30 07:29:59] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:29:59] [DEBUG] Obteniendo perfil por producto ID: 23
+[2025-05-30 07:29:59] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:30:00] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 07:30:00] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 07:34:14] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:34:14] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:34:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:16] [DEBUG] Mapeando usuario...
+[2025-05-30 07:34:16] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:34:16] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:16] [DEBUG] Mapeando usuario...
+[2025-05-30 07:34:16] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:34:16] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:17] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:17] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:17] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:17] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:20] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:34:31] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@6cd73a23
+[2025-05-30 07:34:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:31] [INFO] Producto creado con ID: 25
+[2025-05-30 07:34:31] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:34:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:31] [DEBUG] Mapeando usuario...
+[2025-05-30 07:34:31] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 07:34:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:31] [DEBUG] Mapeando perfil...
+[2025-05-30 07:34:31] [INFO] Producto asociado a perfil con ID: 1
+[2025-05-30 07:34:32] [INFO] Producto publicado con éxito.
+[2025-05-30 07:34:33] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 07:34:33] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:34:33] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:34:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:34] [DEBUG] Mapeando usuario...
+[2025-05-30 07:34:34] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:34:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:34] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:34] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:34] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:34] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:34] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:34:38] [INFO] Producto abierto: zxczxc
+[2025-05-30 07:34:38] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:34:38] [DEBUG] Obteniendo perfil por producto ID: 25
+[2025-05-30 07:34:38] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:34:38] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 07:34:38] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 07:35:12] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:35:12] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:35:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:12] [DEBUG] Mapeando usuario...
+[2025-05-30 07:35:12] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:35:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:14] [INFO] Producto abierto: Laptop Lenovo
+[2025-05-30 07:35:14] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:35:14] [DEBUG] Obteniendo perfil por producto ID: 2
+[2025-05-30 07:35:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:14] [DEBUG] Mapeando perfil...
+[2025-05-30 07:35:14] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 07:35:15] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:35:15] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:35:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:15] [DEBUG] Mapeando usuario...
+[2025-05-30 07:35:15] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:35:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:47] [INFO] Producto abierto: ertyerty
+[2025-05-30 07:35:47] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:35:47] [DEBUG] Obteniendo perfil por producto ID: 23
+[2025-05-30 07:35:47] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:47] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 07:35:47] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 07:35:49] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:35:50] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:35:50] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:50] [DEBUG] Mapeando usuario...
+[2025-05-30 07:35:50] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:35:50] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:50] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:50] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:50] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:50] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:50] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:35:53] [INFO] Producto abierto: zxczxc
+[2025-05-30 07:35:53] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:35:53] [DEBUG] Obteniendo perfil por producto ID: 25
+[2025-05-30 07:35:53] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:35:53] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 07:35:53] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 07:35:53] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-05-30 07:38:10] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:38:11] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:38:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:38:12] [DEBUG] Mapeando usuario...
+[2025-05-30 07:38:12] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:38:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:38:12] [DEBUG] Mapeando usuario...
+[2025-05-30 07:38:13] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:38:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:38:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:38:14] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:38:14] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:38:14] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:38:14] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:39:13] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:39:13] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:39:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:39:14] [DEBUG] Mapeando usuario...
+[2025-05-30 07:39:15] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:39:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:39:15] [DEBUG] Mapeando usuario...
+[2025-05-30 07:39:15] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:39:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:39:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:39:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:39:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:39:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:39:16] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:45:25] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:45:40] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@34ecb6d3
+[2025-05-30 07:45:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:45:40] [INFO] Producto creado con ID: 27
+[2025-05-30 07:45:40] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:45:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:45:40] [DEBUG] Mapeando usuario...
+[2025-05-30 07:45:40] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 07:45:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:45:40] [DEBUG] Mapeando perfil...
+[2025-05-30 07:45:40] [INFO] Producto asociado a perfil con ID: 1
+[2025-05-30 07:45:42] [INFO] Producto publicado con éxito.
+[2025-05-30 07:45:42] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 07:45:43] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:45:43] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:45:43] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:45:43] [DEBUG] Mapeando usuario...
+[2025-05-30 07:45:43] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:45:43] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:45:43] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:45:44] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:45:44] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:45:44] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:45:44] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:45:44] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:45:46] [INFO] Producto abierto: 1
+[2025-05-30 07:45:46] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:45:46] [DEBUG] Obteniendo perfil por producto ID: 27
+[2025-05-30 07:45:46] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:45:46] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 07:45:46] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 07:48:21] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:48:21] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 07:48:21] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:22] [DEBUG] Mapeando usuario...
+[2025-05-30 07:48:22] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:48:22] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:23] [DEBUG] Mapeando usuario...
+[2025-05-30 07:48:23] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:48:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:23] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:24] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:24] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:24] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:24] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:24] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:28] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 07:48:36] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@2df8b2ee
+[2025-05-30 07:48:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:36] [INFO] Producto creado con ID: 29
+[2025-05-30 07:48:36] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:48:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:36] [DEBUG] Mapeando usuario...
+[2025-05-30 07:48:36] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 07:48:36] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:36] [DEBUG] Mapeando perfil...
+[2025-05-30 07:48:36] [INFO] Producto asociado a perfil con ID: 1
+[2025-05-30 07:48:37] [INFO] Producto publicado con éxito.
+[2025-05-30 07:48:37] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 07:48:38] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 07:48:38] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 07:48:38] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:38] [DEBUG] Mapeando usuario...
+[2025-05-30 07:48:38] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 07:48:38] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:38] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:38] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:39] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 07:48:40] [INFO] Producto abierto: 2
+[2025-05-30 07:48:40] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 07:48:40] [DEBUG] Obteniendo perfil por producto ID: 29
+[2025-05-30 07:48:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 07:48:40] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 07:48:40] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 08:00:52] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:00:53] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 08:00:53] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:00:54] [DEBUG] Mapeando usuario...
+[2025-05-30 08:00:54] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:00:54] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:00:55] [DEBUG] Mapeando usuario...
+[2025-05-30 08:00:55] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:00:55] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:00:55] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:00:55] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:00:56] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:00:56] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:00:56] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:00:56] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:00:56] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:00] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 08:01:07] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@34ef3a19
+[2025-05-30 08:01:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:07] [INFO] Producto creado con ID: 31
+[2025-05-30 08:01:07] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:01:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:07] [DEBUG] Mapeando usuario...
+[2025-05-30 08:01:07] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:01:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:07] [DEBUG] Mapeando perfil...
+[2025-05-30 08:01:08] [INFO] Producto asociado a perfil con ID: 1
+[2025-05-30 08:01:09] [INFO] Producto publicado con éxito.
+[2025-05-30 08:01:09] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 08:01:09] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 08:01:09] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:01:09] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:09] [DEBUG] Mapeando usuario...
+[2025-05-30 08:01:10] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:01:10] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:10] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:11] [INFO] Producto abierto: 2
+[2025-05-30 08:01:11] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 08:01:11] [DEBUG] Obteniendo perfil por producto ID: 29
+[2025-05-30 08:01:11] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:11] [ERROR] No se pudo cargar el perfil del vendedor.
+[2025-05-30 08:01:11] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 08:01:12] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 08:01:13] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:01:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:13] [DEBUG] Mapeando usuario...
+[2025-05-30 08:01:13] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:01:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:13] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:01:18] [INFO] Producto abierto: 3
+[2025-05-30 08:01:18] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 08:01:18] [DEBUG] Obteniendo perfil por producto ID: 31
+[2025-05-30 08:01:18] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:01:18] [DEBUG] Mapeando perfil...
+[2025-05-30 08:01:18] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 08:04:14] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 08:04:14] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:04:14] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:04:14] [DEBUG] Mapeando usuario...
+[2025-05-30 08:04:14] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:04:15] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:15] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:04:16] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml
+[2025-05-30 08:04:40] [ADVERTENCIA] El contenido contiene palabras inapropiadas: pito
+[2025-05-30 08:04:53] [ADVERTENCIA] El contenido contiene palabras inapropiadas: pene
+[2025-05-30 08:04:59] [ADVERTENCIA] El contenido contiene palabras inapropiadas: terrorista
+[2025-05-30 08:05:05] [ADVERTENCIA] El contenido contiene palabras inapropiadas: cp
+[2025-05-30 08:05:12] [ADVERTENCIA] El contenido contiene palabras inapropiadas: sexo
+[2025-05-30 08:05:18] [ADVERTENCIA] El contenido contiene palabras inapropiadas: sexo
+[2025-05-30 08:05:25] [ADVERTENCIA] El contenido contiene palabras inapropiadas: cp
+[2025-05-30 08:05:32] [DEBUG] Creando producto: proyectobazarfei.system.objects.vo.ProductoVO@619c3be3
+[2025-05-30 08:05:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:32] [INFO] Producto creado con ID: 33
+[2025-05-30 08:05:32] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:05:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:32] [DEBUG] Mapeando usuario...
+[2025-05-30 08:05:32] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:05:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:05:32] [INFO] Producto asociado a perfil con ID: 1
+[2025-05-30 08:05:33] [INFO] Producto publicado con éxito.
+[2025-05-30 08:05:33] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProductoSegundoPaso.fxml
+[2025-05-30 08:05:34] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 08:05:34] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:05:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:34] [DEBUG] Mapeando usuario...
+[2025-05-30 08:05:34] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:05:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:34] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:34] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:35] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:35] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:35] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:35] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:35] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:35] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:35] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:42] [INFO] Producto abierto: Hola
+[2025-05-30 08:05:42] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 08:05:42] [DEBUG] Obteniendo perfil por producto ID: 33
+[2025-05-30 08:05:42] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:42] [DEBUG] Mapeando perfil...
+[2025-05-30 08:05:42] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 08:05:47] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-05-30 08:05:47] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:05:47] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:47] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-05-30 08:05:47] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:47] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:47] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:05:47] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-05-30 08:05:50] [INFO] Producto abierto: Hola
+[2025-05-30 08:05:50] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 08:05:50] [DEBUG] Obteniendo perfil por producto ID: 33
+[2025-05-30 08:05:50] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:51] [DEBUG] Mapeando perfil...
+[2025-05-30 08:05:51] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 08:05:52] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Comprar.fxml
+[2025-05-30 08:05:52] [DEBUG] Obteniendo perfil por producto ID: 33
+[2025-05-30 08:05:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:05:53] [DEBUG] Mapeando perfil...
+[2025-05-30 08:05:53] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 08:15:15] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:15:16] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-05-30 08:15:16] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:17] [DEBUG] Mapeando usuario...
+[2025-05-30 08:15:17] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:15:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:17] [DEBUG] Mapeando usuario...
+[2025-05-30 08:15:17] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:15:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:18] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:19] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:15:23] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-30 08:15:23] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:15:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:23] [DEBUG] Mapeando usuario...
+[2025-05-30 08:15:23] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:15:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:23] [DEBUG] Mapeando perfil...
+[2025-05-30 08:15:23] [DEBUG] Obteniendo chats por el id del perfil: 1
+[2025-05-30 08:15:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:23] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:15:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:23] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-30 08:15:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:23] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-30 08:15:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:23] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:15:23] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:23] [DEBUG] Mapeando perfil...
+[2025-05-30 08:15:24] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Mapeando perfil...
+[2025-05-30 08:15:24] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Mapeando perfil...
+[2025-05-30 08:15:24] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Mapeando perfil...
+[2025-05-30 08:15:24] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Mapeando perfil...
+[2025-05-30 08:15:24] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:24] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-30 08:15:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:25] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-30 08:15:25] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:25] [DEBUG] Mapeando perfil...
+[2025-05-30 08:15:25] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:15:25] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:15:25] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:00] [INFO] Abriendo chat con marilop
+[2025-05-30 08:16:00] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:00] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:00] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:00] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:00] [DEBUG] Obteniendo chat por id: 1
+[2025-05-30 08:16:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:00] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:00] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-30 08:16:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:00] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-30 08:16:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:00] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:01] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:01] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-30 08:16:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:01] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:06] [INFO] Abriendo chat con luisg
+[2025-05-30 08:16:06] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:06] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:06] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:06] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:06] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:06] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:07] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:07] [INFO] Abriendo chat con ana.t
+[2025-05-30 08:16:07] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:07] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:07] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:08] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:08] [DEBUG] Obteniendo chat por id: 3
+[2025-05-30 08:16:08] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:08] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:08] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:08] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-30 08:16:08] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:08] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-30 08:16:08] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:08] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-30 08:16:08] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:08] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:08] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:08] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:08] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:12] [INFO] Abriendo chat con luisg
+[2025-05-30 08:16:12] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:12] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:12] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:12] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:12] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:16:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:12] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:12] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:13] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:16:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:13] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:16:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:13] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:13] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:13] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:13] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:13] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:13] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:13] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:24] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-05-30 08:16:24] [INFO] Obteniendo productos del perfil.
+[2025-05-30 08:16:24] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:24] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:24] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:24] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:24] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-05-30 08:16:24] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:24] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:25] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:31] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-30 08:16:31] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:31] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:31] [DEBUG] Obteniendo chats por el id del perfil: 1
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:31] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:31] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:31] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:32] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:32] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:32] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:32] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:33] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:34] [INFO] Abriendo chat con luisg
+[2025-05-30 08:16:34] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:34] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:34] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:34] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:34] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:34] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:34] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:34] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:34] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:35] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:35] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:35] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:35] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:39] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:39] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:39] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:39] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:39] [DEBUG] Cerrando sesión en la base de datos...
+[2025-05-30 08:16:39] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:16:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:39] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:39] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:16:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:39] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:39] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:16:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:16:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:16:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:16:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:16:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:16:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:16:44] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Login.fxml
+[2025-05-30 08:16:55] [DEBUG] Iniciando sesión con correo: luis@estudiantes.uv.mx y contraseña: abcd
+[2025-05-30 08:16:55] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:55] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:56] [INFO] Inicio de sesión exitoso. Bienvenido, luisg
+[2025-05-30 08:16:56] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 08:16:57] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:16:57] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:57] [DEBUG] Mapeando usuario...
+[2025-05-30 08:16:57] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:16:57] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:16:57] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:57] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:57] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:58] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:58] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:58] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:58] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:58] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:16:58] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:06] [INFO] Producto abierto: Hola
+[2025-05-30 08:17:06] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-05-30 08:17:06] [DEBUG] Obteniendo perfil por producto ID: 33
+[2025-05-30 08:17:06] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:06] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:06] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-05-30 08:17:07] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-05-30 08:17:07] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:17:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:07] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-05-30 08:17:07] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:08] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:08] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:08] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-05-30 08:17:10] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-05-30 08:17:10] [INFO] Obteniendo productos del perfil.
+[2025-05-30 08:17:10] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:17:10] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:10] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:10] [DEBUG] Obteniendo perfil por id: 3
+[2025-05-30 08:17:10] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:10] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:10] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-05-30 08:17:10] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:16] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-30 08:17:16] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:17:16] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:16] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:16] [DEBUG] Obteniendo perfil por id: 3
+[2025-05-30 08:17:16] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:16] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:16] [DEBUG] Obteniendo chats por el id del perfil: 3
+[2025-05-30 08:17:16] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:17:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:17:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:17:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:17] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:17] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:17] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:17] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:17] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:19] [INFO] Abriendo chat con juanp
+[2025-05-30 08:17:19] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:17:19] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:19] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:19] [DEBUG] Obteniendo perfil por id: 3
+[2025-05-30 08:17:19] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:19] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:19] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:17:19] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:19] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:17:19] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:19] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:17:19] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:19] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:17:19] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:20] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:20] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:20] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:20] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:20] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:20] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:20] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:20] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:20] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:31] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:17:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:31] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:31] [DEBUG] Obteniendo perfil por id: 3
+[2025-05-30 08:17:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:31] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:31] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:31] [DEBUG] Cerrando sesión en la base de datos...
+[2025-05-30 08:17:31] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:32] [DEBUG] Obteniendo perfil por id: 3
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:32] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:32] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:32] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:32] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:32] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:32] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:33] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:33] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:33] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:39] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:17:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:39] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:39] [DEBUG] Obteniendo perfil por id: 3
+[2025-05-30 08:17:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:39] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:39] [DEBUG] Cerrando sesión en la base de datos...
+[2025-05-30 08:17:39] [DEBUG] Obteniendo usuario por el correo: luis@estudiantes.uv.mx
+[2025-05-30 08:17:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:39] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:39] [DEBUG] Obteniendo perfil por id: 3
+[2025-05-30 08:17:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:39] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:39] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:17:39] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:40] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:40] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:17:40] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:40] [DEBUG] Mapeando perfil...
+[2025-05-30 08:17:45] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Login.fxml
+[2025-05-30 08:17:52] [DEBUG] Iniciando sesión con correo: juan@estudiantes.uv.mx y contraseña: 1234
+[2025-05-30 08:17:52] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:52] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:53] [INFO] Inicio de sesión exitoso. Bienvenido, juanp
+[2025-05-30 08:17:53] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-05-30 08:17:53] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:17:53] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:53] [DEBUG] Mapeando usuario...
+[2025-05-30 08:17:53] [DEBUG] Obteniendo todos los productos...
+[2025-05-30 08:17:53] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:17:53] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:53] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:54] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:54] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:54] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:54] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:54] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:54] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:17:54] [ERROR] No se encontró la portada: /C:\Users\alfre\Downloads\Diagrama.png
+[2025-05-30 08:18:00] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Chats.fxml
+[2025-05-30 08:18:00] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:18:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:00] [DEBUG] Mapeando usuario...
+[2025-05-30 08:18:00] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:18:00] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:00] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:00] [DEBUG] Obteniendo chats por el id del perfil: 1
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Obteniendo usuario por ID de perfil: 2
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Obteniendo mensajes del chat: 1
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:01] [DEBUG] Obteniendo perfil por ID: 2
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:01] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:01] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:01] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:01] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:02] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:02] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:02] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:02] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:02] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Obteniendo usuario por ID de perfil: 4
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Obteniendo mensajes del chat: 3
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Obteniendo perfil por ID: 4
+[2025-05-30 08:18:02] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:02] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:02] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:18:03] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:03] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:04] [INFO] Abriendo chat con luisg
+[2025-05-30 08:18:04] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:18:04] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:04] [DEBUG] Mapeando usuario...
+[2025-05-30 08:18:04] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:18:04] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:04] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:04] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:18:04] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:05] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:05] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:05] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:05] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:05] [DEBUG] Mapeando perfil...
+[2025-05-30 08:18:05] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:18:05] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:18:06] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:33] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Mapeando usuario...
+[2025-05-30 08:20:33] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Cerrando sesión en la base de datos...
+[2025-05-30 08:20:33] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Mapeando usuario...
+[2025-05-30 08:20:33] [DEBUG] Obteniendo perfil por id: 1
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:33] [DEBUG] Obteniendo chat por id: 2
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Obteniendo usuario por ID de perfil: 1
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:33] [DEBUG] Obteniendo mensajes del chat: 2
+[2025-05-30 08:20:33] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:20:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:34] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:20:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:34] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:20:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:34] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:20:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:34] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:20:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:34] [DEBUG] Obteniendo perfil por ID: 3
+[2025-05-30 08:20:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:20:34] [DEBUG] Obteniendo perfil por ID: 1
+[2025-05-30 08:20:34] [DEBUG] Utilizando conexión a la base de datos: jdbc:oracle:thin:@localhost:1521:xe
+[2025-05-30 08:20:34] [DEBUG] Mapeando perfil...
+[2025-05-30 08:22:04] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PublicarProducto.fxml

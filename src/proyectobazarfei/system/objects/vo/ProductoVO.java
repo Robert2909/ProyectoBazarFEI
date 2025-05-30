@@ -10,7 +10,22 @@ public class ProductoVO {
     private String categoria;
     private List<String> imagenes;
     private String portada;
+    private List<String> metodosPagoAceptados;
 
+    public ProductoVO() {}
+
+    public ProductoVO(int id, String titulo, String descripcion, double precio, String categoria, List<String> imagenes, String portada, List<String> metodosPagoAceptados) {
+        this.id = id;
+        this.titulo = titulo;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.categoria = categoria;
+        this.imagenes = imagenes;
+        this.portada = portada;
+        this.metodosPagoAceptados = metodosPagoAceptados;
+    }
+
+    // Getters y Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
@@ -28,7 +43,10 @@ public class ProductoVO {
 
     public List<String> getImagenes() { return imagenes; }
     public void setImagenes(List<String> imagenes) { this.imagenes = imagenes; }
-    
+
     public String getPortada() { return portada; }
     public void setPortada(String portada) { this.portada = portada; }
+    
+    public List<String> getMetodosPagoAceptados() { return metodosPagoAceptados; }
+    public void setMetodosPagoAceptados(List<String> metodosPagoAceptados) { this.metodosPagoAceptados = metodosPagoAceptados; }
 }

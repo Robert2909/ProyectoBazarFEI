@@ -188,7 +188,7 @@ public class ComprarController {
         }
         
         metodoPagoComboBox.getItems().addAll("Efectivo", "Transferencia", "Tarjeta");
-        metodoEntregaComboBox.getItems().addAll("Ven a entregarlo", "Iré a recogerlo");
+        metodoEntregaComboBox.getItems().addAll("Ven a entregarlo", "Voy a recogerlo");
         
         datosEntregaLabel.setVisible(false);
         lugarTextField.setVisible(false);
@@ -208,7 +208,7 @@ public class ComprarController {
                 informacionLabel.setVisible(false);
                 lugarTextField.setVisible(true);
                 horaTextField.setVisible(true);
-            } else if (newValue.equals("Iré a recogerlo")) {
+            } else if (newValue.equals("Voy a recogerlo")) {
                 datosEntregaLabel.setVisible(true);
                 informacionLabel.setVisible(true);
                 lugarTextField.setVisible(false);
@@ -290,5 +290,5 @@ public class ComprarController {
     @FXML
     void regresarVentanaAnterior(ActionEvent event) {
         new CambiarVentana(comprarAnchorPane, "/proyectobazarfei/ventanas/fxml/Menu.fxml");
-    } 
+    }
 }

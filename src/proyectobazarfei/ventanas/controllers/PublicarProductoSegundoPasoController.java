@@ -92,75 +92,55 @@ public class PublicarProductoSegundoPasoController {
     private Label ventasLabel;
     
     @FXML
-    void initialize() {
-        categoriaComboBox.getItems().addAll("Alimentos", "Servicios", "Electrónica", "Accesorios", "Escolar");
+    void perfil(MouseEvent event) throws IOException {
+        new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/PerfilPropio.fxml");
     }
 
     @FXML
     void menu(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/Menu.fxml");
-
     }
     
     @FXML
     void publicarProducto(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/PublicarProducto.fxml");
-
     }
 
     @FXML
     void productosActivos(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/ProductosActivos.fxml");
-
     }
 
     @FXML
     void chats(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/Chats.fxml");
-
     }
 
     @FXML
     void compras(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/Compras.fxml");
-
     }
 
     @FXML
     void ventas(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/Ventas.fxml");
-
     }
 
     @FXML
     void configuracion(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/Configuracion.fxml");
-
     }
 
     @FXML
     void ayuda(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/Ayuda.fxml");
-
     }
 
     @FXML
     void cerrarSesion(MouseEvent event) throws IOException {
         new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/Login.fxml");
-
     }
 
-    @FXML
-    void perfil(MouseEvent event) throws IOException {
-        new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/PerfilPropio.fxml");
-
-    }
-    
-    @FXML
-    void enviarProducto(ActionEvent event) throws IOException {
-        new CambiarVentana(publicarProductoSegundoPasoAnchorPane, "/proyectobazarfei/ventanas/fxml/PublicarProductoTercerPaso.fxml");
-    }
-    
     @FXML
     void cerrarPrograma(ActionEvent event) {
         System.exit(0);
