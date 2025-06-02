@@ -1,5 +1,6 @@
 package proyectobazarfei.ventanas.controllers;
 
+import java.io.File;
 import javafx.scene.paint.Color;
 import java.io.InputStream;
 import javafx.event.ActionEvent;
@@ -64,19 +65,20 @@ public class VentaEnListaController {
             precioProductoLabel.setText("$" + producto.getPrecio());
             categoriaProductoLabel.setText(producto.getCategoria());
 
-            if (producto.getPortada() != null) {
-                try (InputStream stream = getClass().getResourceAsStream(producto.getPortada())) {
-                    if (stream != null) {
-                        portadaProductoImageView.setImage(new Image(stream));
-                    }
-                } catch (Exception e) {
-                    System.out.println("Error al cargar portada del producto: " + producto.getPortada());
+            if (producto.getPortada() != null && !producto.getPortada().isBlank()) {
+                File archivo = new File(producto.getPortada());
+
+                if (archivo.exists()) {
+                    LogManager.debug("Portada encontrada correctamente: " + archivo.getAbsolutePath());
+                    portadaProductoImageView.setImage(new Image(archivo.toURI().toString()));
+                } else {
+                    LogManager.error("No se encontró la portada del producto: " + archivo.getAbsolutePath());
                 }
             }
         }
 
         fechaYHoraProductoLabel.setText("Fecha y hora de creación: " + transaccion.getFechaCreacion() + " " + transaccion.getHoraCreacion());
-        metodoPagoProductoLabel.setText("Método de pago: " + transaccion.getMetodoPago());
+        metodoPagoProductoLabel.setText("Método de pago: " + transaccion.getMetodoPagoElegido());
         estadoProductoLabel.setText("Estado: " + transaccion.getEstado());
         calificacionProductoLabel.setText("Calificación: " + transaccion.getCalificacion() + "/5");
     }

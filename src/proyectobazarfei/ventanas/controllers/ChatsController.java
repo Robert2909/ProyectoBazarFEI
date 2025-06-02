@@ -1,5 +1,6 @@
 package proyectobazarfei.ventanas.controllers;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
@@ -172,35 +173,37 @@ public class ChatsController implements Initializable {
     }
     
     public void mostrarChat(ChatVO chat, PerfilUsuarioVO contacto) {
-
         this.chatActual = chat;
         this.contactoActual = contacto;
 
         try {
-            // Mostrar nombre y foto del contacto
-            apodoContactoBarraSuperiorLabel.setText(contacto.getDatosUsuario().getApodo());
-            if (contacto.getFotoPerfil() != null) {
-                Image imagen = new Image(getClass().getResourceAsStream(contacto.getFotoPerfil()));
-                fotoPerfilContactoBarraSuperiorImageView.setClip(new Circle(35, 35, 35));
-                fotoPerfilContactoBarraSuperiorImageView.setImage(imagen);
+            apodoContactoBarraSuperiorLabel.setText(contactoActual.getDatosUsuario().getApodo());
+
+            LogManager.debug("Ruta recibida de fotoPerfil (contacto): '" + contactoActual.getFotoPerfil() + "'");
+            if (contactoActual.getFotoPerfil() != null && !contactoActual.getFotoPerfil().isBlank()) {
+                File archivoFoto = new File(contactoActual.getFotoPerfil());
+                if (archivoFoto.exists()) {
+                    LogManager.debug("[VERIFICACIÓN EXITOSA] Foto contacto barra superior: " + archivoFoto.getAbsolutePath());
+                    fotoPerfilContactoBarraSuperiorImageView.setClip(new Circle(35, 35, 35));
+                    fotoPerfilContactoBarraSuperiorImageView.setImage(new Image(archivoFoto.toURI().toString()));
+                } else {
+                    LogManager.error("[VERIFICACIÓN FALLIDA] Foto contacto barra no encontrada: " + archivoFoto.getAbsolutePath());
+                }
             }
 
             // Limpiar mensajes anteriores
             espacioMensajeriaFlowPane.getChildren().clear();
 
-            // Obtener mi perfil (usuario de sesión)
-            PerfilUsuarioVO miPerfil = new PerfilUsuarioDAOImpl().obtenerPerfilPorUsuarioId(
-                SesionManager.obtenerUsuarioSesionActiva().getId()
-            );
+            PerfilUsuarioVO miPerfil = new PerfilUsuarioDAOImpl()
+                .obtenerPerfilPorUsuarioId(SesionManager.obtenerUsuarioSesionActiva().getId());
 
-            // Obtener el chat completo
             ChatVO chatCompleto = new ChatDAOImpl().obtenerChatPorId(chat.getId());
 
             for (MensajeVO mensaje : chatCompleto.getMensajes()) {
                 FXMLLoader loader;
                 AnchorPane mensajePane;
 
-                boolean esMio = mensaje.getRemitente() != null && 
+                boolean esMio = mensaje.getRemitente() != null &&
                                 mensaje.getRemitente().getId() == miPerfil.getId();
 
                 if (esMio) {
@@ -228,8 +231,8 @@ public class ChatsController implements Initializable {
             LogManager.error("Error al mostrar el chat: " + e.getMessage());
             AlertaSistema.error("No se pudo mostrar el chat.");
         }
+        LogManager.info("El chat se terminó de cargar. Se mostraron las verificaciones?");
     }
-
     
     @FXML
     void enviarMensaje(ActionEvent event) {

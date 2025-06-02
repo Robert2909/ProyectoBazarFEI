@@ -68,8 +68,9 @@ public class ChatDAOImpl implements ChatDAO {
                 comprador.setId(rs.getInt("id_comprador"));
 
                 UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
-                vendedor.setDatosUsuario(usuarioDAO.obtenerUsuarioPorPerfilId(vendedor.getId()));
-                comprador.setDatosUsuario(usuarioDAO.obtenerUsuarioPorPerfilId(comprador.getId()));
+                PerfilUsuarioDAO perfilDAO = new PerfilUsuarioDAOImpl();
+                vendedor = perfilDAO.obtenerPerfilPorUsuarioId(rs.getInt("id_vendedor"));
+                comprador = perfilDAO.obtenerPerfilPorUsuarioId(rs.getInt("id_comprador"));
 
                 chat = new ChatVO();
                 chat.setId(rs.getInt("id"));
@@ -104,19 +105,13 @@ public class ChatDAOImpl implements ChatDAO {
             stmt.setInt(2, perfilId);
             ResultSet rs = stmt.executeQuery();
 
-            UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
+            PerfilUsuarioDAO perfilDAO = new PerfilUsuarioDAOImpl();
 
             while (rs.next()) {
                 ChatVO chat = new ChatVO();
 
-                PerfilUsuarioVO vendedor = new PerfilUsuarioVO();
-                PerfilUsuarioVO comprador = new PerfilUsuarioVO();
-
-                vendedor.setId(rs.getInt("id_vendedor"));
-                comprador.setId(rs.getInt("id_comprador"));
-
-                vendedor.setDatosUsuario(usuarioDAO.obtenerUsuarioPorPerfilId(vendedor.getId()));
-                comprador.setDatosUsuario(usuarioDAO.obtenerUsuarioPorPerfilId(comprador.getId()));
+                PerfilUsuarioVO vendedor = perfilDAO.obtenerPerfilPorId(rs.getInt("id_vendedor"));
+                PerfilUsuarioVO comprador = perfilDAO.obtenerPerfilPorId(rs.getInt("id_comprador"));
 
                 chat.setId(rs.getInt("id"));
                 chat.setVendedor(vendedor);

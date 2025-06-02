@@ -1,5 +1,6 @@
 package proyectobazarfei.ventanas.controllers;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import javafx.event.ActionEvent;
@@ -17,6 +18,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.shape.Circle;
 import proyectobazarfei.system.methods.AlertaSistema;
 import proyectobazarfei.system.methods.CambiarVentana;
+import proyectobazarfei.system.methods.ImageManager;
 import proyectobazarfei.system.methods.LogManager;
 import proyectobazarfei.system.objects.dao.PerfilUsuarioDAO;
 import proyectobazarfei.system.objects.daoIMPL.PerfilUsuarioDAOImpl;
@@ -130,7 +132,7 @@ public class ProductoController {
 
     @FXML
     private Button verPerfilVendedorButton;
-    
+
     public void setProducto(ProductoVO producto) {
         this.productoActual = producto;
 
@@ -144,27 +146,33 @@ public class ProductoController {
         categoriaLabel.setText(productoActual.getCategoria());
         descripcionTextArea.setPromptText(productoActual.getDescripcion());
 
+        // Portada
         if (productoActual.getPortada() != null) {
-            InputStream stream = getClass().getResourceAsStream(productoActual.getPortada());
-            if (stream != null) {
-                portadaImageView.setImage(new Image(stream));
+            File portadaFile = new File(ImageManager.obtenerRutaAbsoluta(productoActual.getPortada()));
+            if (portadaFile.exists()) {
+                portadaImageView.setImage(new Image(portadaFile.toURI().toString()));
+            } else {
+                LogManager.error("No se encontró la portada: " + portadaFile.getAbsolutePath());
             }
         }
 
+        // Imágenes del producto
         imagenesFlowPane.getChildren().clear();
         if (productoActual.getImagenes() != null) {
             for (String ruta : productoActual.getImagenes()) {
-                InputStream stream = getClass().getResourceAsStream(ruta);
-                if (stream != null) {
-                    ImageView img = new ImageView(new Image(stream));
-                    img.setFitWidth(100);
-                    img.setFitHeight(100);
+                File imgFile = new File(ImageManager.obtenerRutaAbsoluta(ruta));
+                if (imgFile.exists()) {
+                    ImageView img = new ImageView(new Image(imgFile.toURI().toString()));
+                    img.setFitWidth(200);
                     img.setPreserveRatio(true);
                     imagenesFlowPane.getChildren().add(img);
+                } else {
+                    LogManager.error("No se encontró una imagen adicional del producto: " + imgFile.getAbsolutePath());
                 }
             }
         }
 
+        // Datos del vendedor
         PerfilUsuarioDAO perfilDAO = new PerfilUsuarioDAOImpl();
         perfilVendedor = perfilDAO.obtenerPerfilPorProductoId(productoActual.getId());
 
@@ -172,16 +180,19 @@ public class ProductoController {
             apodoVendedorLabel.setText(perfilVendedor.getDatosUsuario().getApodo());
 
             if (perfilVendedor.getFotoPerfil() != null) {
-                InputStream stream = getClass().getResourceAsStream(perfilVendedor.getFotoPerfil());
-                if (stream != null) {
+                File fotoFile = new File(ImageManager.obtenerRutaAbsoluta(perfilVendedor.getFotoPerfil()));
+                if (fotoFile.exists()) {
                     imagenVendedorImageView.setClip(new Circle(37, 37, 37));
-                    imagenVendedorImageView.setImage(new Image(stream));
+                    imagenVendedorImageView.setImage(new Image(fotoFile.toURI().toString()));
+                } else {
+                    LogManager.error("No se encontró la foto de perfil del vendedor: " + fotoFile.getAbsolutePath());
                 }
             }
         } else {
             LogManager.error("No se pudo cargar el perfil del vendedor.");
         }
     }
+
     
     @FXML
     void verPerfilVendedor(ActionEvent event) {

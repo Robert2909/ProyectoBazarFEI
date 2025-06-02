@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Paths;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -21,6 +22,7 @@ import javafx.scene.shape.Line;
 import javafx.stage.FileChooser;
 import proyectobazarfei.system.methods.AlertaSistema;
 import proyectobazarfei.system.methods.CambiarVentana;
+import proyectobazarfei.system.methods.ImageManager;
 import proyectobazarfei.system.methods.LogManager;
 import proyectobazarfei.system.methods.SesionManager;
 import proyectobazarfei.system.objects.dao.PerfilUsuarioDAO;
@@ -158,11 +160,15 @@ public class ConfiguracionController {
             PerfilUsuarioVO perfil = new PerfilUsuarioDAOImpl().obtenerPerfilPorUsuarioId(usuario.getId());
             if (perfil != null) {
                 cambiarDescripcionTextArea.setPromptText(perfil.getDescripcion());
-                if (perfil.getFotoPerfil() != null) {
-                    try (InputStream stream = getClass().getResourceAsStream(perfil.getFotoPerfil())) {
-                        if (stream != null) {
-                            fotoPerfilImageView.setImage(new Image(stream));
-                        }
+
+                if (perfil.getFotoPerfil() != null && !perfil.getFotoPerfil().isBlank()) {
+                    File archivo = new File(perfil.getFotoPerfil());
+
+                    if (archivo.exists()) {
+                        LogManager.debug("[VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: " + archivo.getAbsolutePath());
+                        fotoPerfilImageView.setImage(new Image(archivo.toURI().toString()));
+                    } else {
+                        LogManager.error("[ERROR] No se encontró la foto de perfil: " + archivo.getAbsolutePath());
                     }
                 }
             }
@@ -172,6 +178,7 @@ public class ConfiguracionController {
             AlertaSistema.error("Error al cargar los datos del perfil.");
         }
     }
+
 
     private void bloquearCampos() {
         cambiarApodoTextField.setDisable(true);
@@ -190,21 +197,27 @@ public class ConfiguracionController {
 
         File archivo = fileChooser.showOpenDialog(fotoPerfilImageView.getScene().getWindow());
         if (archivo != null) {
-            File destino = new File("src/main/resources/proyectobazarfei/resources/temp/perfiles/" + archivo.getName());
             try {
-                java.nio.file.Files.copy(
-                    archivo.toPath(),
-                    destino.toPath(),
-                    java.nio.file.StandardCopyOption.REPLACE_EXISTING
-                );
-                rutaImagenSeleccionada = "/proyectobazarfei/resources/temp/perfiles/" + archivo.getName();
-                fotoPerfilImageView.setImage(new Image(destino.toURI().toString()));
+                // Guardar imagen en carpeta definitiva y obtener su ruta relativa
+                String rutaRelativa = ImageManager.guardarFotoPerfil(archivo);
+                rutaImagenSeleccionada = rutaRelativa;
+
+                // Obtener ruta absoluta para mostrarla temporalmente al usuario
+                File imagenCopiada = new File(ImageManager.obtenerRutaAbsoluta(rutaRelativa));
+                if (!imagenCopiada.exists()) {
+                    LogManager.error("[VERIFICACIÓN FALLIDA] No se encontró la foto de perfil: " + imagenCopiada.getAbsolutePath());
+                } else {
+                    LogManager.debug("[VERIFICACIÓN EXITOSA] Foto de perfil en: " + imagenCopiada.getAbsolutePath());
+                    fotoPerfilImageView.setImage(new Image(imagenCopiada.toURI().toString()));
+                }
+
             } catch (IOException e) {
-                LogManager.error("Error al copiar imagen: " + e.getMessage());
-                AlertaSistema.error("No se pudo copiar la imagen.");
+                LogManager.error("Error al copiar imagen de perfil: " + e.getMessage());
+                AlertaSistema.error("No se pudo copiar la imagen de perfil.");
             }
         }
     }
+
 
     @FXML
     void guardarCambios(ActionEvent event) {

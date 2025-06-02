@@ -1,5 +1,6 @@
 package proyectobazarfei.ventanas.controllers;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -137,17 +138,19 @@ public class PerfilPropioController {
         descripcionTextArea.setPromptText(perfil.getDescripcion());
         calificacionLabel.setText("Calificación: " + perfil.getCalificacionPromedio() + "/5");
 
-        if (perfil.getFotoPerfil() != null && !perfil.getFotoPerfil().isEmpty()) {
-            try (InputStream imagenStream = getClass().getResourceAsStream(perfil.getFotoPerfil())) {
-                if (imagenStream != null) {
-                    Image imagen = new Image(imagenStream);
-                    imagenPerfilImageView.setClip(new Circle(150, 150, 150));
-                    imagenPerfilImageView.setImage(imagen);
-                }
-            } catch (Exception e) {
-                LogManager.error("No se pudo cargar la imagen de perfil: " + perfil.getFotoPerfil());
+        if (perfil.getFotoPerfil() != null && !perfil.getFotoPerfil().isBlank()) {
+            File archivoFoto = new File(perfil.getFotoPerfil());
+
+            if (archivoFoto.exists()) {
+                LogManager.debug("[VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: " + archivoFoto.getAbsolutePath());
+                Image imagen = new Image(archivoFoto.toURI().toString());
+                imagenPerfilImageView.setClip(new Circle(150, 150, 150));
+                imagenPerfilImageView.setImage(imagen);
+            } else {
+                LogManager.error("[ERROR] No se encontró la foto de perfil: " + archivoFoto.getAbsolutePath());
             }
         }
+
 
         ProductoDAO productoDAO = new ProductoDAOImpl();
         List<ProductoVO> productos = productoDAO.obtenerProductosPorPerfilId(perfil.getId());

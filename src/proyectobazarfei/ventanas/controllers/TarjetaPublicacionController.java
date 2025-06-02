@@ -1,6 +1,10 @@
 package proyectobazarfei.ventanas.controllers;
 
+import java.io.File;
 import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
@@ -55,22 +59,19 @@ public class TarjetaPublicacionController {
         precioLabel.setText("$" + producto.getPrecio());
         categoriaLabel.setText(producto.getCategoria());
 
-        if (producto.getPortada() != null) {
-            String ruta = producto.getPortada().startsWith("/") 
-                          ? producto.getPortada() 
-                          : "/" + producto.getPortada();
+        if (producto.getPortada() != null && !producto.getPortada().isBlank()) {
+            File archivoPortada = new File(producto.getPortada());
 
-            try (InputStream imgStream = getClass().getResourceAsStream(ruta)) {
-                if (imgStream != null) {
-                    Image imagen = new Image(imgStream);
-                    imagenImageView.setImage(imagen);
-                } else {
-                    LogManager.error("No se encontró la portada: " + ruta);
-                }
-            } catch (Exception e) {
-                LogManager.error("Error al cargar portada: " + ruta);
-                e.printStackTrace();
+            if (archivoPortada.exists()) {
+                LogManager.debug("[VERIFICACIÓN EXITOSA] Portada encontrada en: " + archivoPortada.getAbsolutePath());
+                Image imagen = new Image(archivoPortada.toURI().toString());
+                imagenImageView.setImage(imagen);
+            } else {
+                LogManager.error("[ERROR] No se encontró la portada: " + archivoPortada.getAbsolutePath());
             }
+        } else {
+            LogManager.error("[ERROR] Ruta de portada vacía o nula.");
         }
     }
+
 }

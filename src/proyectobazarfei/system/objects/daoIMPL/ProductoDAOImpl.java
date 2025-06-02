@@ -47,6 +47,7 @@ public class ProductoDAOImpl implements ProductoDAO {
             Array imagenesArray = conn.unwrap(oracle.jdbc.OracleConnection.class)
                 .createOracleArray("SYS.ODCIVARCHAR2LIST", producto.getImagenes().toArray());
 
+
             stmt.setArray(6, metodosArray);
             stmt.setArray(7, imagenesArray);
             stmt.registerReturnParameter(8, java.sql.Types.INTEGER);
@@ -196,7 +197,18 @@ public class ProductoDAOImpl implements ProductoDAO {
     @Override
     public void actualizarProducto(ProductoVO producto) {
         LogManager.debug("Actualizando producto: " + producto.toString());
-        String sql = "UPDATE productos SET titulo = ?, descripcion = ?, precio = ?, categoria = ? WHERE id = ?";
+        String sql = """
+            UPDATE productos SET 
+                titulo = ?, 
+                descripcion = ?, 
+                precio = ?, 
+                categoria = ?, 
+                portada = ?, 
+                imagenes = ?, 
+                metodos_pago_aceptados = ?
+            WHERE id = ?
+        """;
+
 
         try (Connection conn = DatabaseManager.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -205,7 +217,15 @@ public class ProductoDAOImpl implements ProductoDAO {
             stmt.setString(2, producto.getDescripcion());
             stmt.setDouble(3, producto.getPrecio());
             stmt.setString(4, producto.getCategoria());
-            stmt.setInt(5, producto.getId());
+            stmt.setString(5, producto.getPortada());
+
+            Array imagenesArray = crearArrayDeStrings(conn, producto.getImagenes());
+            Array metodosArray = crearArrayDeStrings(conn, producto.getMetodosPagoAceptados());
+
+            stmt.setArray(6, imagenesArray);
+            stmt.setArray(7, metodosArray);
+            stmt.setInt(8, producto.getId());
+
 
             stmt.executeUpdate();
 
@@ -338,14 +358,7 @@ public class ProductoDAOImpl implements ProductoDAO {
 
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                ProductoVO producto = new ProductoVO();
-                producto.setId(rs.getInt("id"));
-                producto.setTitulo(rs.getString("titulo"));
-                producto.setDescripcion(rs.getString("descripcion"));
-                producto.setPrecio(rs.getDouble("precio"));
-                producto.setCategoria(rs.getString("categoria"));
-                producto.setPortada(rs.getString("portada"));
-                // las imágenes adicionales se cargan por separado si se requieren
+                ProductoVO producto = mapearProductoDesdeResultSet(rs);
                 lista.add(producto);
             }
 

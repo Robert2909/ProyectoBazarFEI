@@ -2,9 +2,14 @@ package proyectobazarfei.ventanas.controllers;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -23,6 +28,8 @@ import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import proyectobazarfei.system.methods.AlertaSistema;
 import proyectobazarfei.system.methods.CambiarVentana;
+import proyectobazarfei.system.methods.ImageManager;
+import proyectobazarfei.system.methods.LogManager;
 import proyectobazarfei.system.objects.dao.ProductoDAO;
 import proyectobazarfei.system.objects.daoIMPL.ProductoDAOImpl;
 import proyectobazarfei.system.objects.vo.ProductoVO;
@@ -32,6 +39,10 @@ public class PublicarProductoController {
     private File portadaSeleccionada;
     
     private final List<File> imagenesSeleccionadas = new ArrayList<>();
+    
+    private static final String RUTA_PORTADAS = "temp/productos/portadas/";
+    
+    private static final String RUTA_IMAGENES = "temp/productos/imagenes/";
     
     private static final List<String> PALABRAS_PROHIBIDAS = List.of(
         // Obscenidades y variaciones
@@ -255,23 +266,38 @@ public class PublicarProductoController {
     private void elegirPortada(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Seleccionar portada del producto");
-        fileChooser.getExtensionFilters().addAll(
+        fileChooser.getExtensionFilters().add(
             new FileChooser.ExtensionFilter("Imágenes", "*.png", "*.jpg", "*.jpeg")
         );
 
         File file = fileChooser.showOpenDialog(publicarProductoAnchorPane.getScene().getWindow());
         if (file != null) {
-            portadaSeleccionada = file;
-            Image image = new Image(file.toURI().toString());
-            portadaProductoNuevoImageView.setImage(image);
+            try {
+                String rutaRelativa = ImageManager.guardarPortadaProducto(file);
+                portadaSeleccionada = new File(ImageManager.obtenerRutaAbsoluta(rutaRelativa));
+
+                if (portadaSeleccionada.exists()) {
+                    Image imagen = new Image(portadaSeleccionada.toURI().toString());
+                    portadaProductoNuevoImageView.setImage(imagen);
+                    LogManager.debug("Portada seleccionada y copiada: " + rutaRelativa);
+                } else {
+                    LogManager.error("La imagen de portada no se encontró en: " + portadaSeleccionada.getAbsolutePath());
+                    AlertaSistema.error("La imagen copiada no se pudo encontrar.");
+                }
+
+            } catch (IOException e) {
+                LogManager.error("Error al copiar la portada: " + e.getMessage());
+                AlertaSistema.error("No se pudo copiar la imagen de portada.");
+            }
         }
     }
-    
+
+
     @FXML
     private void elegirImagenes(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Seleccionar imágenes del producto");
-        fileChooser.getExtensionFilters().addAll(
+        fileChooser.getExtensionFilters().add(
             new FileChooser.ExtensionFilter("Imágenes", "*.png", "*.jpg", "*.jpeg")
         );
 
@@ -280,16 +306,34 @@ public class PublicarProductoController {
             imagenesSeleccionadas.clear();
             imagenesProductoNuevoFlowPane.getChildren().clear();
 
-            for (File file : files) {
-                imagenesSeleccionadas.add(file);
-                ImageView iv = new ImageView(new Image(file.toURI().toString()));
-                iv.setFitWidth(100);
-                iv.setFitHeight(100);
-                iv.setPreserveRatio(true);
-                imagenesProductoNuevoFlowPane.getChildren().add(iv);
+            for (File original : files) {
+                try {
+                    String rutaRelativa = ImageManager.guardarImagenProducto(original);
+                    File imagenFinal = new File(ImageManager.obtenerRutaAbsoluta(rutaRelativa));
+
+                    if (imagenFinal.exists()) {
+                        imagenesSeleccionadas.add(imagenFinal);
+                        ImageView iv = new ImageView(new Image(imagenFinal.toURI().toString()));
+                        iv.setFitWidth(100);
+                        iv.setFitHeight(100);
+                        iv.setPreserveRatio(true);
+                        imagenesProductoNuevoFlowPane.getChildren().add(iv);
+
+                        LogManager.debug("Imagen seleccionada y copiada: " + rutaRelativa);
+                    } else {
+                        LogManager.error("No se encontró la imagen copiada: " + imagenFinal.getAbsolutePath());
+                        AlertaSistema.error("Una de las imágenes copiadas no se pudo encontrar.");
+                    }
+
+                } catch (IOException e) {
+                    LogManager.error("Error al copiar una imagen: " + e.getMessage());
+                    AlertaSistema.error("No se pudo copiar una de las imágenes del producto.");
+                }
             }
         }
     }
+
+
 
     private List<String> obtenerMetodosPagoSeleccionados() {
         List<String> metodos = new ArrayList<>();
@@ -349,7 +393,6 @@ public class PublicarProductoController {
             metodos
         );
     }
-
 
     private boolean validarProducto(ProductoVO producto) {
         if (producto == null) {

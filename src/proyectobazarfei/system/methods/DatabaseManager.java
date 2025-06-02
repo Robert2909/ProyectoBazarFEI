@@ -20,7 +20,6 @@ public class DatabaseManager {
     }
 
     public static Connection getConnection() throws SQLException {
-        LogManager.debug("Utilizando conexión a la base de datos: " + URL);
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 

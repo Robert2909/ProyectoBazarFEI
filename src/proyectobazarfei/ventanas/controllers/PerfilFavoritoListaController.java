@@ -1,10 +1,9 @@
 package proyectobazarfei.ventanas.controllers;
 
+import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
@@ -12,7 +11,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Circle;
-import javafx.stage.Stage;
 import proyectobazarfei.system.methods.AlertaSistema;
 import proyectobazarfei.system.methods.CambiarVentana;
 import proyectobazarfei.system.methods.LogManager;
@@ -22,9 +20,8 @@ import proyectobazarfei.system.objects.daoIMPL.PerfilUsuarioDAOImpl;
 import proyectobazarfei.system.objects.vo.PerfilUsuarioVO;
 
 public class PerfilFavoritoListaController {
-    
+
     private PerfilUsuarioVO perfil;
-    
     public AnchorPane anchorRaiz;
 
     @FXML
@@ -47,9 +44,8 @@ public class PerfilFavoritoListaController {
 
     @FXML
     private Button verPerfilButton;
-    
-    public void rellenarDatos(PerfilUsuarioVO perfil, AnchorPane anchorRaiz) {
 
+    public void rellenarDatos(PerfilUsuarioVO perfil, AnchorPane anchorRaiz) {
         this.perfil = perfil;
         this.anchorRaiz = anchorRaiz;
 
@@ -63,18 +59,19 @@ public class PerfilFavoritoListaController {
         calificacionLabel.setText("Calificación: " + perfil.getCalificacionPromedio() + "/5");
 
         if (perfil.getFotoPerfil() != null && !perfil.getFotoPerfil().isEmpty()) {
-            try (InputStream imagenStream = getClass().getResourceAsStream(perfil.getFotoPerfil())) {
-                if (imagenStream != null) {
-                    Image imagen = new Image(imagenStream);
-                    imagenPerfilImageView.setClip(new Circle(150, 150, 150));
-                    imagenPerfilImageView.setImage(imagen);
-                }
-            } catch (Exception e) {
-                LogManager.error("No se pudo cargar la imagen de perfil: " + perfil.getFotoPerfil());
+            File archivoFoto = new File(perfil.getFotoPerfil());
+
+            if (archivoFoto.exists()) {
+                LogManager.debug("[VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: " + archivoFoto.getAbsolutePath());
+                Image imagen = new Image(archivoFoto.toURI().toString());
+                imagenPerfilImageView.setClip(new Circle(160, 160, 160));
+                imagenPerfilImageView.setImage(imagen);
+            } else {
+                LogManager.error("[ERROR] No se encontró la foto de perfil: " + archivoFoto.getAbsolutePath());
             }
         }
     }
-    
+
     @FXML
     void verPerfil(ActionEvent event) {
         new CambiarVentana(anchorRaiz, "/proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml", this.perfil);

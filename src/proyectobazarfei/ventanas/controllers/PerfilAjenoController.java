@@ -1,5 +1,6 @@
 package proyectobazarfei.ventanas.controllers;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -147,13 +148,15 @@ public class PerfilAjenoController {
         calificacionLabel.setText("Calificación: " + perfil.getCalificacionPromedio() + "/5");
 
         if (perfil.getFotoPerfil() != null && !perfil.getFotoPerfil().isEmpty()) {
-            try (InputStream imagenStream = getClass().getResourceAsStream(perfil.getFotoPerfil())) {
-                if (imagenStream != null) {
-                    imagenPerfilImageView.setClip(new Circle(150, 150, 150));
-                    imagenPerfilImageView.setImage(new Image(imagenStream));
-                }
-            } catch (Exception e) {
-                LogManager.error("No se pudo cargar la imagen: " + perfil.getFotoPerfil());
+            File archivoFoto = new File(perfil.getFotoPerfil());
+
+            if (archivoFoto.exists()) {
+                LogManager.debug("[VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: " + archivoFoto.getAbsolutePath());
+                Image imagen = new Image(archivoFoto.toURI().toString());
+                imagenPerfilImageView.setClip(new Circle(150, 150, 150));
+                imagenPerfilImageView.setImage(imagen);
+            } else {
+                LogManager.error("[ERROR] No se encontró la foto de perfil: " + archivoFoto.getAbsolutePath());
             }
         }
 
@@ -173,6 +176,7 @@ public class PerfilAjenoController {
             }
         }
     }
+
     
     @FXML
     void reportarPerfil(ActionEvent event) {
