@@ -62,12 +62,12 @@ public class PerfilFavoritoListaController {
             File archivoFoto = new File(perfil.getFotoPerfil());
 
             if (archivoFoto.exists()) {
-                LogManager.debug("[VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: " + archivoFoto.getAbsolutePath());
+                LogManager.debug("Foto de perfil encontrada en: " + archivoFoto.getAbsolutePath());
                 Image imagen = new Image(archivoFoto.toURI().toString());
                 imagenPerfilImageView.setClip(new Circle(160, 160, 160));
                 imagenPerfilImageView.setImage(imagen);
             } else {
-                LogManager.error("[ERROR] No se encontró la foto de perfil: " + archivoFoto.getAbsolutePath());
+                LogManager.error("No se encontró la foto de perfil: " + archivoFoto.getAbsolutePath());
             }
         }
     }

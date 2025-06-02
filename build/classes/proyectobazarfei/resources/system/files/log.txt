@@ -10220,3 +10220,286 @@ https://docs.oracle.com/error-help/db/ora-17068/
 [2025-06-01 20:52:19] [DEBUG] Obteniendo perfil por producto ID: 31
 [2025-06-01 20:52:19] [DEBUG] Mapeando perfil...
 [2025-06-01 20:52:19] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-01 20:57:25] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-01 20:57:25] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-06-01 20:57:26] [DEBUG] Mapeando usuario...
+[2025-06-01 20:57:26] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-01 20:57:26] [DEBUG] Mapeando usuario...
+[2025-06-01 20:57:26] [DEBUG] Obteniendo todos los productos...
+[2025-06-01 20:57:26] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-01 20:57:26] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-01 20:57:26] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-01 20:57:26] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\audifonos_portada.jpg
+[2025-06-01 20:57:26] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\soledad_portada.jpg
+[2025-06-01 20:57:26] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\tablet_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\mochila_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cargador_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\sudadera_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\botella_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\estuche_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\geometria_portada.jpg
+[2025-06-01 20:57:27] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-01 20:57:29] [INFO] Producto abierto: Laptop Lenovo
+[2025-06-01 20:57:29] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-06-01 20:57:29] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\laptop1.jpg
+[2025-06-01 20:57:29] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\laptop2.jpg
+[2025-06-01 20:57:29] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\laptop3.jpg
+[2025-06-01 20:57:29] [DEBUG] Obteniendo perfil por producto ID: 2
+[2025-06-01 20:57:29] [DEBUG] Mapeando perfil...
+[2025-06-01 20:57:29] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-01 20:57:30] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Comprar.fxml
+[2025-06-01 20:57:30] [DEBUG] Obteniendo perfil por producto ID: 2
+[2025-06-01 20:57:30] [DEBUG] Mapeando perfil...
+[2025-06-01 20:57:30] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-02 00:07:01] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:07:02] [DEBUG] Driver de Oracle cargado correctamente.
+[2025-06-02 00:07:02] [DEBUG] Mapeando usuario...
+[2025-06-02 00:07:03] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:07:03] [DEBUG] Mapeando usuario...
+[2025-06-02 00:07:03] [DEBUG] Obteniendo todos los productos...
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\audifonos_portada.jpg
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\soledad_portada.jpg
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\tablet_portada.jpg
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:07:03] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\mochila_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cargador_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\sudadera_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\botella_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\estuche_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\geometria_portada.jpg
+[2025-06-02 00:07:04] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:07:32] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-06-02 00:07:32] [INFO] Obteniendo productos del perfil.
+[2025-06-02 00:07:32] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:07:32] [DEBUG] Mapeando usuario...
+[2025-06-02 00:07:32] [DEBUG] Obteniendo perfil por id: 1
+[2025-06-02 00:07:32] [DEBUG] Mapeando perfil...
+[2025-06-02 00:07:32] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\juan.jpg
+[2025-06-02 00:07:32] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-06-02 00:07:32] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:07:32] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:07:32] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:07:32] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:07:34] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-06-02 00:07:34] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:07:34] [DEBUG] Mapeando usuario...
+[2025-06-02 00:07:34] [DEBUG] Obteniendo todos los productos...
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\audifonos_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\soledad_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\tablet_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\mochila_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cargador_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\sudadera_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\botella_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\estuche_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\geometria_portada.jpg
+[2025-06-02 00:07:35] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:07:36] [INFO] Producto abierto: Pluma fuente
+[2025-06-02 00:07:36] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-06-02 00:07:36] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\pluma1.jpg
+[2025-06-02 00:07:36] [DEBUG] Obteniendo perfil por producto ID: 7
+[2025-06-02 00:07:36] [DEBUG] Mapeando perfil...
+[2025-06-02 00:07:36] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-02 00:07:38] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-06-02 00:07:38] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-06-02 00:07:38] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\luis.jpg
+[2025-06-02 00:07:38] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-06-02 00:07:38] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:07:38] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:07:38] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:07:38] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-06-02 00:11:32] [INFO] Producto abierto: Pluma fuente
+[2025-06-02 00:11:32] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-06-02 00:11:32] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\pluma1.jpg
+[2025-06-02 00:11:32] [DEBUG] Obteniendo perfil por producto ID: 7
+[2025-06-02 00:11:32] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:32] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-02 00:11:38] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-06-02 00:11:38] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-06-02 00:11:38] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\luis.jpg
+[2025-06-02 00:11:38] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-06-02 00:11:38] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:38] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:38] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:38] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-06-02 00:11:40] [INFO] Producto abierto: Zapatos escolares
+[2025-06-02 00:11:40] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-06-02 00:11:40] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos1.jpg
+[2025-06-02 00:11:40] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos2.jpg
+[2025-06-02 00:11:40] [DEBUG] Obteniendo perfil por producto ID: 9
+[2025-06-02 00:11:40] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:40] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-02 00:11:40] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-06-02 00:11:40] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-06-02 00:11:40] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\luis.jpg
+[2025-06-02 00:11:40] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-06-02 00:11:40] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:40] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:40] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:40] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-06-02 00:11:41] [INFO] Producto abierto: Zapatos escolares
+[2025-06-02 00:11:41] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-06-02 00:11:41] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos1.jpg
+[2025-06-02 00:11:41] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos2.jpg
+[2025-06-02 00:11:41] [DEBUG] Obteniendo perfil por producto ID: 9
+[2025-06-02 00:11:41] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:41] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-02 00:11:41] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-06-02 00:11:41] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-06-02 00:11:42] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\luis.jpg
+[2025-06-02 00:11:42] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-06-02 00:11:42] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:42] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:42] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:42] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-06-02 00:11:42] [INFO] Producto abierto: Zapatos escolares
+[2025-06-02 00:11:42] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-06-02 00:11:42] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos1.jpg
+[2025-06-02 00:11:42] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos2.jpg
+[2025-06-02 00:11:42] [DEBUG] Obteniendo perfil por producto ID: 9
+[2025-06-02 00:11:42] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:42] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-02 00:11:43] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-06-02 00:11:43] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-06-02 00:11:43] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\luis.jpg
+[2025-06-02 00:11:43] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-06-02 00:11:43] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:43] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:43] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:43] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-06-02 00:11:43] [INFO] Producto abierto: Zapatos escolares
+[2025-06-02 00:11:43] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Producto.fxml
+[2025-06-02 00:11:43] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos1.jpg
+[2025-06-02 00:11:43] [ERROR] No se encontró una imagen adicional del producto: C:\Users\alfre\BazarFEI\temp\productos\imagenes\zapatos2.jpg
+[2025-06-02 00:11:43] [DEBUG] Obteniendo perfil por producto ID: 9
+[2025-06-02 00:11:43] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:43] [DEBUG] Objeto pasado al controlador usando: setProducto
+[2025-06-02 00:11:44] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilAjeno.fxml
+[2025-06-02 00:11:44] [DEBUG] Obteniendo usuario por ID de perfil: 3
+[2025-06-02 00:11:45] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\luis.jpg
+[2025-06-02 00:11:45] [DEBUG] Obteniendo productos por la id del perfil: 3
+[2025-06-02 00:11:45] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:45] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:45] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:45] [DEBUG] Objeto pasado al controlador usando: setPerfil
+[2025-06-02 00:11:45] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-06-02 00:11:45] [INFO] Obteniendo productos del perfil.
+[2025-06-02 00:11:45] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:11:45] [DEBUG] Mapeando usuario...
+[2025-06-02 00:11:45] [DEBUG] Obteniendo perfil por id: 1
+[2025-06-02 00:11:45] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:45] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\juan.jpg
+[2025-06-02 00:11:45] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-06-02 00:11:46] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:11:46] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:11:46] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:11:46] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:11:46] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-06-02 00:11:46] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:11:47] [DEBUG] Mapeando usuario...
+[2025-06-02 00:11:47] [DEBUG] Obteniendo todos los productos...
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\audifonos_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\soledad_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\tablet_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\mochila_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cargador_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\sudadera_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\botella_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\estuche_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\geometria_portada.jpg
+[2025-06-02 00:11:47] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:11:48] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/ProductosActivos.fxml
+[2025-06-02 00:11:48] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:11:48] [DEBUG] Mapeando usuario...
+[2025-06-02 00:11:48] [DEBUG] Obteniendo perfil por id: 1
+[2025-06-02 00:11:48] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:48] [DEBUG] Obteniendo productos activos por id de perfil: 1
+[2025-06-02 00:11:48] [DEBUG] Obteniendo transacciones desde perfil: 1, tipo: vendedor, estado: En proceso
+[2025-06-02 00:11:48] [DEBUG] Mapeando transacción...
+[2025-06-02 00:11:48] [DEBUG] Obteniendo mensaje por id: 6
+[2025-06-02 00:11:48] [DEBUG] Portada encontrada correctamente: C:\Users\alfre\BazarFEI\temp\productos\portadas\tablet_portada.jpg
+[2025-06-02 00:11:49] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-06-02 00:11:49] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:11:49] [DEBUG] Mapeando usuario...
+[2025-06-02 00:11:49] [DEBUG] Obteniendo todos los productos...
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\audifonos_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\soledad_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\tablet_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\mochila_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cargador_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\sudadera_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\botella_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\estuche_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\geometria_portada.jpg
+[2025-06-02 00:11:49] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:11:51] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/Menu.fxml
+[2025-06-02 00:11:51] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:11:51] [DEBUG] Mapeando usuario...
+[2025-06-02 00:11:51] [DEBUG] Obteniendo todos los productos...
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\audifonos_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\soledad_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\tablet_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\pluma_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\playera_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\zapatos_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\mochila_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cargador_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\sudadera_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\botella_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\estuche_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\geometria_portada.jpg
+[2025-06-02 00:11:51] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:11:51] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilPropio.fxml
+[2025-06-02 00:11:51] [INFO] Obteniendo productos del perfil.
+[2025-06-02 00:11:51] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:11:52] [DEBUG] Mapeando usuario...
+[2025-06-02 00:11:52] [DEBUG] Obteniendo perfil por id: 1
+[2025-06-02 00:11:52] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:52] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\juan.jpg
+[2025-06-02 00:11:52] [DEBUG] Obteniendo productos por la id del perfil: 1
+[2025-06-02 00:11:52] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\cuaderno_portada.jpg
+[2025-06-02 00:11:52] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\laptop_portada.jpg
+[2025-06-02 00:11:52] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\casio_portada.jpg
+[2025-06-02 00:11:52] [DEBUG] [VERIFICACIÓN EXITOSA] Portada encontrada en: C:\Users\alfre\BazarFEI\temp\productos\portadas\e0b6f41c-1d77-43d5-8157-f0e81a605f9d_mochila1.jpg
+[2025-06-02 00:11:53] [INFO] Cambiando a ventana: /proyectobazarfei/ventanas/fxml/PerfilesFavoritos.fxml
+[2025-06-02 00:11:53] [DEBUG] Obteniendo usuario por el correo: juan@estudiantes.uv.mx
+[2025-06-02 00:11:53] [DEBUG] Mapeando usuario...
+[2025-06-02 00:11:53] [DEBUG] Obteniendo perfil por id: 1
+[2025-06-02 00:11:53] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:53] [DEBUG] Obteniendo vendedores favoritos del perfil ID: 1
+[2025-06-02 00:11:53] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:53] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:53] [DEBUG] Mapeando perfil...
+[2025-06-02 00:11:53] [DEBUG] Cargando lista de perfiles favoritos...
+[2025-06-02 00:11:53] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\maria.jpg
+[2025-06-02 00:11:53] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\luis.jpg
+[2025-06-02 00:11:53] [DEBUG] [VERIFICACIÓN EXITOSA] Foto de perfil encontrada en: C:\Users\alfre\BazarFEI\temp\perfiles\juan.jpg
